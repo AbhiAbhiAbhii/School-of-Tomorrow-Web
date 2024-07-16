@@ -28,15 +28,36 @@ export default function SideBar() {
     },
   ]
 
+  const nav = [
+    {
+      id: 0,
+      text: 'About',
+      link:''
+    },
+    {
+      id: 1,
+      text: 'Speakers',
+      link:''
+    },
+    {
+      id: 2,
+      text: 'Agenda',
+      link:''
+    },
+    {
+      id: 3,
+      text: 'Workshops',
+      link:''
+    },
+  ]
+
   const socialsComponent = <ul className='flex items-center gap-4'>{socials.map(item => <li className='bg-prupleB' key={item.id}><Link className='p-3' href={item.link}></Link></li>)}</ul>
 
   return (
     <aside className="">
-      {/* INNER */}
       <div className="space-y-4"> 
         <Logo />
         <BlockA />
-        {/* next component */}
         <div className="bg-pink rounded-sm p-4 space-y-4">
           <PinkBlock 
             text='WHEN' 
@@ -55,6 +76,9 @@ export default function SideBar() {
             sideComponent={socialsComponent}
           />
         </div>
+        <ul className='flex items-center justify-between'>
+          {nav.map(item => <li className='font-inter font-bold p-1 transition-all hover:bg-white hover:text-purpleB text-white text-sm cursor-pointer' key={item.id}>{item.text}</li>)}
+        </ul>
       </div>
     </aside>
   )

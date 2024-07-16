@@ -21,7 +21,7 @@ const PPEdNewUltralight = localFont({
 
 const inter = Inter({
   variable: '--font-inter',
-  weight: ['100', '300', '400', '500', '600', '700'],
+  weight: ['100', '300', '400', '500', '600', '700', '900'],
   subsets: ['latin']
 })
 

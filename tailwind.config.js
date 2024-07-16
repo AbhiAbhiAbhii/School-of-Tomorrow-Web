@@ -26,7 +26,8 @@ module.exports = {
       pink: '#D4396A'
     },
     colors: {
-      purpleB: '#24223C'
+      purpleB: '#24223C',
+      white: '#ffff'
     }
   },
   plugins: [],
