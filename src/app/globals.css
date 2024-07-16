@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --hex-clip-path: polygon(0 30%, 52% 0, 100% 33%, 100% 64%, 58% 100%, 0 74%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,6 +20,10 @@
 body {
   background: #22203E;
   overflow-x: hidden;
+}
+.hex {
+  -webkit-clip-path: var(--hex-clip-path);
+  clip-path: var(--hex-clip-path);
 }
 
 @layer utilities {

@@ -8,8 +8,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export default function SideBar() {
-  let textA =<p className="font-PPEdNewRegular text-purpleB tracking-tighter text-7xl flex gap-2">5-7<sup className="text-sm tracking-normal">TH</sup></p>
-  let textB = <p className="font-inter text-purpleB font-bold text-3xl leading-7 tracking-tighter">NAME <br />153 BROADWAY <br />WILLIAMSBURG <br />PUNE IN</p>
+  let textA =<p className="font-PPEdNewRegular text-purpleB tracking-tighter text-6xl flex gap-2">5-7<sup className="text-sm tracking-normal">TH</sup></p>
+  let textB = <p className="font-inter text-purpleB font-bold text-2xl leading-7 tracking-tighter">NAME <br />153 BROADWAY <br />WILLIAMSBURG <br />PUNE IN</p>
 
   const socials = [
     {
@@ -60,7 +60,7 @@ export default function SideBar() {
         alt='img'
         height={100}
         width={100}
-        className='h-[250px] w-[50px]'
+        className='h-[200px] w-[50px]'
         src='/assets/side-bar-hand.png'
       />
       <div className="space-y-4 ml-4 w-full"> 
@@ -69,8 +69,8 @@ export default function SideBar() {
         <div className="bg-pink rounded-sm p-4 space-y-4">
           <PinkBlock 
             text='WHEN' 
-            mainText={<p className="font-inter text-purpleB font-bold text-3xl leading-7 tracking-tighter">AUGUST <br /> 2024</p>}
-            sideComponent={textA}
+            mainText={<p className="font-inter text-purpleB font-bold text-2xl leading-7 tracking-tighter">AUGUST <br /> 2024</p>}
+            sideText={textA}
           />
           <Separator />
           <PinkBlock 

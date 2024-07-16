@@ -8,7 +8,7 @@ export default function BlockA() {
         className="flex items-center justify-center gap-2 py-2 bg-white rounded-sm" 
         href='/'
     >
-      <p className="font-PPEdNewRegular text-purpleB text-[40px]">
+      <p className="font-PPEdNewRegular text-purpleB text-[36px]">
         Register Now
       </p>
       <Arrow />
