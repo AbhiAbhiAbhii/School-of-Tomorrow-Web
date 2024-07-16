@@ -3,7 +3,7 @@ import SideBar from "./components/SideBar/SideBar";
 
 export default function Home() {
 
-  let textClassName = "font-PPEdNewUltralight text-[120px] xl:text-[146px]"
+  let textClassName = "font-PPEdNewUltralight text-[120px] xl:text-[142px]"
 
   return (
     <section className="flex justify-between gap-4 max-w-screen-2xl mx-auto py-4 pr-6">
@@ -20,13 +20,13 @@ export default function Home() {
         </div>
         {/* Text component */}
         <div className="text-[#FBFAED] w-full relative bottom-[16%] h-fit">
-          <p className={`${textClassName} relative top-11`}>
+          <p className={`${textClassName} relative top-14`}>
             The future
           </p>
           <p className={`${textClassName} grid place-content-end w-full`}>
-            <span>of innovation is</span>
+            <span className="mr-4">of innovation is</span>
           </p>
-          <p className={`${textClassName} relative bottom-16`}>
+          <p className={`${textClassName} relative bottom-24`}>
             here.
           </p>
         </div>
