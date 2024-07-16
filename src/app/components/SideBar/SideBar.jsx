@@ -5,6 +5,7 @@ import PinkBlock from './PinkBlock'
 import Separator from '../Separator'
 import PinkBlockB from './PinkBlockB'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function SideBar() {
   let textA =<p className="font-PPEdNewRegular text-purpleB tracking-tighter text-7xl flex gap-2">5-7<sup className="text-sm tracking-normal">TH</sup></p>
@@ -54,8 +55,14 @@ export default function SideBar() {
   const socialsComponent = <ul className='flex items-center gap-4'>{socials.map(item => <li className='bg-prupleB' key={item.id}><Link className='p-3' href={item.link}></Link></li>)}</ul>
 
   return (
-    <aside className="">
-      <div className="space-y-4"> 
+    <aside className="flex sticky top-2 left-0 h-fit w-[450px]">
+      <Image 
+        alt='img'
+        height={100}
+        width={150}
+        src='/assets/side-bar-hand.png'
+      />
+      <div className="space-y-4 ml-4"> 
         <Logo />
         <BlockA />
         <div className="bg-pink rounded-sm p-4 space-y-4">
