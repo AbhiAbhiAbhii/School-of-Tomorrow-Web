@@ -26,6 +26,23 @@ body {
   clip-path: var(--hex-clip-path);
 }
 
+.hover-me {
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.hover-me:first-child {
+  flex: 3;
+}
+
+.hover-me:hover {
+  flex: 3;
+}
+
+.hover-me:not(:hover) {
+  flex: 1;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

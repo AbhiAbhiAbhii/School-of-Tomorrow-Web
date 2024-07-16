@@ -30,7 +30,7 @@ export default function SpeakerShowcase() {
         />
         <div className='flex justify-end gap-2 w-full'>
             {speakerData.map(({src, name, title}, index) => (
-                <SpeakerItem key={name} index={index} name={name} src={src} title={title} />
+                <SpeakerItem key={index} index={index} name={name} src={src} title={title} />
             ))}
         </div>
     </div>

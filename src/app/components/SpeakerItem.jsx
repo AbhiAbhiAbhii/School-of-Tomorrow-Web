@@ -1,19 +1,12 @@
 'use client'
 
 import Image from 'next/image'
-import React, { useState } from 'react'
 
 export default function SpeakerItem({ name, src, title, index }) {
 
-    const [detectHover, setDetectHover] = useState(0)
-
-    function detectMouseHover(index) {
-        setDetectHover(index)
-    }
-
   return (
-    <div onMouseEnter={() => detectMouseHover(index)} className={`space-y-2 ${index === detectHover ? 'w-[75%]':'w-[25%]'} transition-all`} key={name}>
-        <div className='w-full h-[300px] transition-all overflow-hidden'>
+    <div className='space-y-2 hover-me' key={index}>
+        <div className='w-full h-[300px] overflow-hidden'>
             <Image 
                 src={src}
                 alt='Speaker'

@@ -39,7 +39,7 @@ export default function HexShowcase() {
 
             return(
             <div key={item.id} className={`relative ${postion}`}>
-                <div key={item.id} class="hex h-[250px] w-[250px] grid place-items-center bg-white overflow-hidden">
+                <div key={item.id} className="hex h-[250px] w-[250px] grid place-items-center bg-white overflow-hidden">
                     <div className={`hex ${bgColor} h-[99%] w-[99%] grid place-items-center text-center`}>
                         <p className={`leading-[20px] ${textColor} relative top-1`}>
                             <span className="font-PPEdNewRegular text-6xl">{item.number}</span><br/><span className="font-inter text-sm flex w-[70%] mx-auto leading-4">{item.text}</span>
