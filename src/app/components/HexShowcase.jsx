@@ -35,7 +35,7 @@ export default function HexShowcase() {
 
             if(index === 0) postion='left-6 -z[10]'
 
-            if(index === 2) postion ='right-6'
+            if(index === 2) postion='right-6'
 
             return(
             <div key={item.id} className={`relative ${postion}`}>

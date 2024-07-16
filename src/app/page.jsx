@@ -3,6 +3,7 @@ import HeroBanner from "./components/HeroBanner";
 import HeroBannerText from "./components/HeroBannerText";
 import HexShowcase from "./components/HexShowcase";
 import BeliefShowcase from "./components/BeliefShowcase";
+import SpeakerShowcase from "./components/SpeakerShowcase";
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
         <div className="relative space-y-24 bottom-24">
           <HexShowcase />
           <BeliefShowcase />
+          <SpeakerShowcase />
         </div>
       </main>
     </section>
