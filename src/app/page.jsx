@@ -3,28 +3,30 @@ import SideBar from "./components/SideBar/SideBar";
 
 export default function Home() {
 
+  let textClassName = "font-PPEdNewUltralight text-[120px] xl:text-[146px]"
+
   return (
-    <section className="flex justify-between max-w-[2000px] mx-auto py-12 pr-6">
+    <section className="flex justify-between gap-4 max-w-screen-2xl mx-auto py-4 pr-6">
       <SideBar />
       <main className="pb-[2000px] w-[65%] flex flex-col">
-        <div className="w-full">
+        <div className="w-full grid place-self-end place-content-end">
           <Image 
             src='/assets/hero-banner.svg'
             alt="hero-banner"
-            className="w-full"
-            height={400}
-            width={400}
+            className="!w-full"
+            height={300}
+            width={300}
           />
         </div>
         {/* Text component */}
-        <div className="text-[#FBFAED] w-full relative bottom-[14%] h-fit">
-          <p className="font-PPEdNewUltralight relative top-[10%] text-[9vw]">
+        <div className="text-[#FBFAED] w-full relative bottom-[16%] h-fit">
+          <p className={`${textClassName} relative top-11`}>
             The future
           </p>
-          <p className="font-PPEdNewUltralight text-[9vw] grid place-self-end place-content-end w-full pr-4">
+          <p className={`${textClassName} grid place-content-end w-full`}>
             <span>of innovation is</span>
           </p>
-          <p className="font-PPEdNewUltralight text-[9vw] relative bottom-[15%]">
+          <p className={`${textClassName} relative bottom-16`}>
             here.
           </p>
         </div>

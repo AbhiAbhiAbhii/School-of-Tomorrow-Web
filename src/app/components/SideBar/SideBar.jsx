@@ -55,14 +55,15 @@ export default function SideBar() {
   const socialsComponent = <ul className='flex items-center gap-4'>{socials.map(item => <li className='bg-prupleB' key={item.id}><Link className='p-3' href={item.link}></Link></li>)}</ul>
 
   return (
-    <aside className="flex sticky top-2 left-0 h-fit w-[450px]">
+    <aside className="flex sticky top-0 left-0 h-fit w-[350px] max-w-full">
       <Image 
         alt='img'
         height={100}
-        width={150}
+        width={100}
+        className='h-[250px] w-[50px]'
         src='/assets/side-bar-hand.png'
       />
-      <div className="space-y-4 ml-4"> 
+      <div className="space-y-4 ml-4 w-full"> 
         <Logo />
         <BlockA />
         <div className="bg-pink rounded-sm p-4 space-y-4">
