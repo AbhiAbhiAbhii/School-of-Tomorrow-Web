@@ -63,7 +63,7 @@ export default function SideBar() {
         className='h-[200px] w-[50px]'
         src='/assets/side-bar-hand.png'
       />
-      <div className="space-y-4 ml-4 w-full"> 
+      <div className="space-y-4 w-[250px]"> 
         <Logo />
         <BlockA />
         <div className="bg-pink rounded-sm p-4 space-y-4">

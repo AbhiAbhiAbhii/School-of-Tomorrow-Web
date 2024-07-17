@@ -5,10 +5,10 @@ import React from 'react'
 export default function WorkShopCards({ data }) {
 
   return (
-    <ul className='flex gap-6'>
+    <ul className='flex gap-2 w-3/4'>
         {data.map((item) => (
             <li className={
-                clsx('h-[539px] flex flex-col justify-end p-4 relative overflow-hidden',{
+                clsx('h-[539px] flex flex-col space-y-4 justify-end p-4 relative overflow-hidden w-[45%]',{
                     'bg-[#FFD238]': item.id === 0,
                     'text-[#000000]': item.id === 0,
                     'bg-[#000000]': item.id === 1,
@@ -26,13 +26,15 @@ export default function WorkShopCards({ data }) {
                         width={200}
                     />
                 </div>
-                <p className='font-PPEdNewUltralight'>
-                    {item.title}
-                </p>
-                <div className='font-inter'>
-                    {item.tags.map(tag => <p key={tag}>{tag}</p>)}
+                <div className='space-y-1'>
+                    <p className='font-PPEdNewUltralight text-4xl w-[12ch]'>
+                        {item.title}
+                    </p>
+                    <div className='font-inter flex flex-wrap gap-2'>
+                        {item.tags.map(tag => <p className='text-[12px] font-semibold bg-white p-1 text-[#000000]' key={tag}>{tag}</p>)}
+                    </div>
                 </div>
-                <p className='font-inter'>
+                <p className='font-inter leading-5 text-sm w-[26ch]'>
                     {item.description}
                 </p>
             </li>

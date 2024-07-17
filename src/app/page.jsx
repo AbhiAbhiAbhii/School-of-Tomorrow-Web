@@ -10,10 +10,10 @@ import WorkShopShowcase from "./components/WorkShopShowcase";
 export default function Home() {
 
   return (
-    <section className="flex justify-between gap-4 max-w-screen-2xl mx-auto py-4 pr-6 relative border h-auto">
+    <section className="flex justify-between gap-2 max-w-screen-2xl mx-auto py-4 pr-6 relative h-auto">
       <Reveal />
       <SideBar />
-      <main className="w-[65%] flex flex-col">
+      <main className="w-[68%] flex flex-col">
         <div className="w-full">
           <HeroBanner />
           <HeroBannerText />
