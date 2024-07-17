@@ -6,8 +6,8 @@ export default function AgendaCard({ tableData }) {
   return (
     <div className='space-y-4 w-[40%] p-6'>
         <div className='text-[#FBFAED] space-y-3'>
-            <p className='font-PPEdNewUltralight flex text-7xl'>{tableData.day}<sup className='text-sm'>AUGUST 07</sup></p>
-            <p className='text-sm'>
+            <p className='font-PPEdNewUltralight flex text-7xl'>{tableData.day}<sup className='text-sm ml-2'>{tableData.date}</sup></p>
+            <p className='text-2xl font-inter'>
                 {tableData.description}
             </p>
         </div>
