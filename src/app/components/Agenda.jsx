@@ -56,7 +56,7 @@ export default function Agenda() {
     ]
 
   return (
-    <div className='space-y-12'>
+    <div className='agenda scroll-m-7 space-y-12'>
         <Eyebrow 
             text='Program Agenda'
             isSingle 

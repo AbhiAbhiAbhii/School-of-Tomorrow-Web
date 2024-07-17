@@ -3,7 +3,7 @@ export default function HeroBannerDescription({ className }) {
     const textClassName = "text-sm w-full xl:w-[40ch]"
 
   return (
-    <div className={`${className} font-inter w-full grid grid-flow-row lg:grid-flow-col place-content-end gap-4 lg:gap-12`}>
+    <div className={`${className} font-inter w-full grid grid-flow-row lg:grid-flow-col place-content-end gap-4 lg:gap-12 about scroll-m-7`}>
         <p className={`${textClassName}`}>
             During 5-7 August of 2024, five organizations are coming together – iTeach Schools, The Akanksha Foundation, The Circle, Teach For India, and Teach For All – to host
             a conference that will endeavor to answer those three questions.<br /><br />

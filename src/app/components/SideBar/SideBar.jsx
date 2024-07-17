@@ -34,22 +34,22 @@ export default function SideBar() {
     {
       id: 0,
       text: 'About',
-      link:''
+      link:'.about'
     },
     {
       id: 1,
       text: 'Speakers',
-      link:''
+      link:'.speakers'
     },
     {
       id: 2,
       text: 'Workshops',
-      link:''
+      link:'.workshops'
     },
     {
       id: 3,
       text: 'Agenda',
-      link:''
+      link:'.agenda'
     },
   ]
 

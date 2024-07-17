@@ -23,7 +23,7 @@ export default function SpeakerShowcase() {
     ]
 
   return (
-    <section className='space-y-12'>
+    <section className='speakers scroll-m-7 space-y-12'>
         <Eyebrow 
             text='Our Speakers'
             link="/"
