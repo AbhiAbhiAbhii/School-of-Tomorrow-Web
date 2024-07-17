@@ -8,8 +8,11 @@ import Reveal from "./components/Reveal";
 import WorkShopShowcase from "./components/WorkShopShowcase";
 import Agenda from "./components/Agenda";
 import LogoShowcase from "./components/LogoShowcase";
+import { Collaborators, Organizers } from "../../logoData";
+import TicketShowcase from "./components/TicketShowcase";
 
 export default function Home() {
+
 
   return (
     <section className="flex justify-between gap-2 max-w-screen-2xl mx-auto py-4 pr-6 relative h-auto">
@@ -26,8 +29,9 @@ export default function Home() {
           <SpeakerShowcase />
           <WorkShopShowcase />
           <Agenda />
-          <LogoShowcase text='Organizers' />
-          <LogoShowcase text='Collaborators' />
+          <LogoShowcase text='Organizers' data={Organizers} />
+          <LogoShowcase text='Collaborators' data={Collaborators} />
+          <TicketShowcase />
         </div>
       </main>
     </section>
