@@ -72,13 +72,13 @@ export default function SideBar() {
             mainText={<p className="font-inter text-purpleB font-bold text-2xl leading-7 tracking-tighter">AUGUST <br /> 2024</p>}
             sideText={textA}
           />
-          <Separator />
+          <Separator className='bg-purple' />
           <PinkBlock 
             text="WHERE"
             mainText={textB}
             isSingleText
           />
-          <Separator />
+          <Separator className='bg-purple' />
           <PinkBlockB 
             text="SOCIALS"
             sideComponent={socialsComponent}

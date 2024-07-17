@@ -6,6 +6,8 @@ import BeliefShowcase from "./components/BeliefShowcase";
 import SpeakerShowcase from "./components/SpeakerShowcase";
 import Reveal from "./components/Reveal";
 import WorkShopShowcase from "./components/WorkShopShowcase";
+import Agenda from "./components/Agenda";
+import LogoShowcase from "./components/LogoShowcase";
 
 export default function Home() {
 
@@ -23,6 +25,9 @@ export default function Home() {
           <BeliefShowcase />
           <SpeakerShowcase />
           <WorkShopShowcase />
+          <Agenda />
+          <LogoShowcase text='Organizers' />
+          <LogoShowcase text='Collaborators' />
         </div>
       </main>
     </section>
