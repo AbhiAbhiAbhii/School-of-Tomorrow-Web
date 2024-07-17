@@ -7,7 +7,7 @@ export default function Agenda() {
     const tableData = [
         {
             day: 'Day I',
-            description: 'Participants will engage with capacity building workshops designed to spark inspiration and provide tools. They’ll leave better equipped to start redesigning.',
+            description: 'Innovate',
             table: [
                 {
                     id: 0,

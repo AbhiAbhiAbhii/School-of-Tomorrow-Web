@@ -6,22 +6,38 @@ export default function BeliefShowcase() {
     const upperData = [
         {
             id: '01',
-            text: 'Acquire concrete knowledge and skills – through capacity-building workshops - to begin redesigning schools within their individual contexts.'
+            title: 'Masterclasses by Industry Experts',
+            text: "In-depth insights and knowledge or specific topics related to the conference's them"
         },
         {
             id: '02',
-            text: 'Acquire concrete knowledge and skills – through capacity-building workshops - to begin redesigning schools within their individual contexts.'
+            title: 'Learning Workshops',
+            text: 'Practice designinsights and tools, focused on solving real-world challenges in Schoclis across Pune'
         }
     ]
 
     const lowerData = [
         {
             id: '03',
-            text: 'Acquire concrete knowledge and skills – through capacity-building workshops - to begin redesigning schools within their individual contexts.'
+            title: 'Insight Panels',
+            text: 'Breakdown-topic surgent and deeply relevant to the cause of building future-reedy schools initiate spans and inspiration to take forward'
         }, 
         {
             id: '04',
-            text: 'Acquire concrete knowledge and skills – through capacity-building workshops - to begin redesigning schools within their individual contexts.'
+            title: 'Hackathon',
+            text: 'Unconference format to design prototype rapid and collaborative manner. cuminating into a community procation'
+        }
+    ]
+    const evenLowerData = [
+        {
+            id: '05',
+            title: 'Keynote Sessions',
+            text: 'Insights and inspiration as well bessert the tone for the rest of the conference by studentleaders and industry experts'
+        }, 
+        {
+            id: '06',
+            title: 'Exhibits & Pop-Up Studios',
+            text: 'Exemplary concepts and installations, Ever outcortes by urgs und schools across the country.'
         }
     ]
 
@@ -49,6 +65,11 @@ export default function BeliefShowcase() {
             <div className='flex gap-12 justify-end'>
                 <BeliefTextComponent 
                     data={lowerData}
+                />
+            </div>
+            <div className='flex gap-12 w-full ml-12'>
+                <BeliefTextComponent 
+                    data={evenLowerData}
                 />
             </div>
         </div>

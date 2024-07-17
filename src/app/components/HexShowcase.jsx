@@ -6,17 +6,17 @@ export default function HexShowcase() {
         {
             id: 0,
             number: '75%',
-            text: 'of students from India'
+            text: 'of the 100 School Leader participants will be from India’s schools'
         },
         {
             id: 1,
             number: '25%',
-            text: 'of students International'
+            text: 'will come from across the world'
         },
         {
             id: 2,
             number: '200',
-            text: 'Educator participants'
+            text: 'Additional educator participants'
         },
     ]
 

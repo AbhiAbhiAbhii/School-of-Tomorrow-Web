@@ -30,9 +30,9 @@ export default function WorkShopShowcase() {
                 <p className='text-[#FBFAED] text-5xl'>
                     Our<br/> Workshops
                 </p>
-                <Link href='/' className='text-white text-xl flex items-center gap-2'>
+                {/* <Link href='/' className='text-white text-xl flex items-center gap-2'>
                     View all <DynamicArrow className='h-3 w-3' strokeColor='#ffff' />
-                </Link>
+                </Link> */}
             </div>
         </div>
     </section>

@@ -26,7 +26,7 @@ export default function SpeakerShowcase() {
     <section className='speakers scroll-m-7 space-y-12'>
         <Eyebrow 
             text='Our Speakers'
-            link="/"
+            isSingle
         />
         <div className='flex justify-end gap-2 w-full'>
             {speakerData.map(({src, name, title}, index) => (
