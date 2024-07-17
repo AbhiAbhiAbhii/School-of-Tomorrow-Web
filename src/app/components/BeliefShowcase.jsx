@@ -26,7 +26,7 @@ export default function BeliefShowcase() {
     ]
 
   return (
-    <div className='space-y-24'>
+    <section className='space-y-24'>
        <div className='font-PPEdNewUltralight text-[#FBFAED] text-6xl'>
         <p>The beliefs that</p>
         <p className='relative left-24'>shape our event</p>
@@ -53,6 +53,6 @@ export default function BeliefShowcase() {
             </div>
         </div>
        </div>
-    </div>
+    </section>
   )
 }

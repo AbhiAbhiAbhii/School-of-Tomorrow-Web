@@ -5,6 +5,7 @@ import HexShowcase from "./components/HexShowcase";
 import BeliefShowcase from "./components/BeliefShowcase";
 import SpeakerShowcase from "./components/SpeakerShowcase";
 import Reveal from "./components/Reveal";
+import WorkShopShowcase from "./components/WorkShopShowcase";
 
 export default function Home() {
 
@@ -21,6 +22,7 @@ export default function Home() {
           <HexShowcase />
           <BeliefShowcase />
           <SpeakerShowcase />
+          <WorkShopShowcase />
         </div>
       </main>
     </section>

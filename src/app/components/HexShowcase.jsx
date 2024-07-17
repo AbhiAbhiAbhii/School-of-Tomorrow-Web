@@ -21,7 +21,7 @@ export default function HexShowcase() {
     ]
 
   return (
-    <div className='flex items-center justify-center w-full'>
+    <section className='flex items-center justify-center w-full'>
         {hexData.map((item, index) => {
             let bgColor, postion, textColor;
 
@@ -49,6 +49,6 @@ export default function HexShowcase() {
             </div>
             )
         })}
-    </div>
+    </section>
   )
 }

@@ -23,7 +23,7 @@ export default function SpeakerShowcase() {
     ]
 
   return (
-    <div className='space-y-12'>
+    <section className='space-y-12'>
         <Eyebrow 
             text='Our Speakers'
             link="/"
@@ -33,6 +33,6 @@ export default function SpeakerShowcase() {
                 <SpeakerItem key={index} index={index} name={name} src={src} title={title} />
             ))}
         </div>
-    </div>
+    </section>
   )
 }
