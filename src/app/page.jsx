@@ -8,7 +8,7 @@ import Reveal from "./components/Reveal";
 import WorkShopShowcase from "./components/WorkShopShowcase";
 import Agenda from "./components/Agenda";
 import LogoShowcase from "./components/LogoShowcase";
-import { Collaborators, Organizers } from "../../logoData";
+import { Collaborators, Organizers, OrganizerSVG } from "../../logoData";
 import TicketShowcase from "./components/TicketShowcase";
 import Link from "next/link";
 
@@ -30,7 +30,7 @@ export default function Home() {
           <SpeakerShowcase />
           <WorkShopShowcase />
           <Agenda />
-          <LogoShowcase text='Organizers' data={Organizers} />
+          <LogoShowcase text='Organizers' data={OrganizerSVG} />
           <LogoShowcase text='Collaborators' data={Collaborators} />
           <TicketShowcase />
           <div className="text-[#9D9D9D] font-inter flex justify-between">
