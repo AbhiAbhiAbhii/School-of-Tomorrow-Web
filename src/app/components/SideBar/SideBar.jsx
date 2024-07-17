@@ -6,6 +6,7 @@ import Separator from '../Separator'
 import PinkBlockB from './PinkBlockB'
 import Link from 'next/link'
 import Image from 'next/image'
+import SideBarLinks from './SideBarLinks'
 
 export default function SideBar() {
   let textA =<p className="font-PPEdNewRegular text-purpleB tracking-tighter text-6xl flex gap-2">5-7<sup className="text-sm tracking-normal">TH</sup></p>
@@ -42,12 +43,12 @@ export default function SideBar() {
     },
     {
       id: 2,
-      text: 'Agenda',
+      text: 'Workshops',
       link:''
     },
     {
       id: 3,
-      text: 'Workshops',
+      text: 'Agenda',
       link:''
     },
   ]
@@ -85,7 +86,7 @@ export default function SideBar() {
           />
         </div>
         <ul className='flex items-center justify-between'>
-          {nav.map(item => <li className='font-inter font-bold p-1 transition-all hover:bg-white hover:text-purpleB text-white text-sm cursor-pointer' key={item.id}>{item.text}</li>)}
+          {nav.map(item => <SideBarLinks key={item.id} item={item} />)}
         </ul>
       </div>
     </aside>
