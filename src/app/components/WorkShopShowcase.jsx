@@ -24,7 +24,7 @@ export default function WorkShopShowcase() {
 
   return (
     <section className='w-full'>
-        <div className='flex items-center justify-between flex-wrap w-full'>
+        <div className='flex items-center justify-between flex-wrap-reverse w-full'>
             <WorkShopCards data={cardData} />
             <div className='font-PPEdNewUltralight space-y-2 w-fit mr-4'>
                 <p className='text-[#FBFAED] text-5xl'>

@@ -10,6 +10,7 @@ import Agenda from "./components/Agenda";
 import LogoShowcase from "./components/LogoShowcase";
 import { Collaborators, Organizers } from "../../logoData";
 import TicketShowcase from "./components/TicketShowcase";
+import Link from "next/link";
 
 export default function Home() {
 
@@ -32,6 +33,14 @@ export default function Home() {
           <LogoShowcase text='Organizers' data={Organizers} />
           <LogoShowcase text='Collaborators' data={Collaborators} />
           <TicketShowcase />
+          <div className="text-[#9D9D9D] font-inter flex justify-between">
+            <p className="text-sm text-wrap">
+            COPYRIGHT © 2024  SCHOOL OF TOMORROW © ALL RIGHTS RESERVED
+            </p>
+            <Link className="text-sm" href='https://www.gradical.xyz/'>
+              BY GRADICAL
+            </Link>
+          </div>
         </div>
       </main>
     </section>
