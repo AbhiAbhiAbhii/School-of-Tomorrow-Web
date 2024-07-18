@@ -7,7 +7,7 @@ import SpeakerShowcase from "./components/SpeakerShowcase";
 import WorkShopShowcase from "./components/WorkShopShowcase";
 import Agenda from "./components/Agenda";
 import LogoShowcase from "./components/LogoShowcase";
-import { Collaborators, OrganizerSVG } from "../../logoData";
+import { Collaborators, OrganizerSVG } from "../../data";
 import TicketShowcase from "./components/TicketShowcase";
 import Link from "next/link";
 import PanelsShowcase from "./components/PanelsShowcase";
