@@ -15,7 +15,7 @@ import NavBar from "./components/NavBar";
 export default function Home() {
 
   return (
-    <section className="flex-col mt-32 sm:mt-0 lx:flex-row sm:flex sm:justify-between gap-2 max-w-[2400px] mx-auto p-4 lx:py-4 lx:pr-6 relative h-auto">
+    <section className="flex-col mt-32 lx:mt-0 lx:flex-row sm:flex sm:justify-between gap-2 max-w-[2400px] mx-auto p-4 lx:py-4 lx:pr-6 relative h-auto">
       <SideBar />
       <NavBar />
       <main className="sm:w-full lx:w-[68%] flex flex-col">

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function NavBar() {
   return (
-    <nav className='fixed flex items-center pt-12 pb-4 px-6 justify-between lx:hidden top-0 left-0 mb-4 bg-purple z-20 w-full'>
+    <nav className='fixed flex items-center pt-12 pb-4 sm:pt-6 px-6 justify-between lx:hidden top-0 left-0 mb-4 bg-purple z-20 w-full'>
       <div 
         className='w-[150px] h-[50px] sm:h-[150px] sm:w-[150px]'
       >
