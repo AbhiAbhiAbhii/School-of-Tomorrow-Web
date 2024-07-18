@@ -42,7 +42,7 @@ export default function Accordion({ data, className }) {
                     style={{
                         background: `${randomColors[index]}`
                     }}
-                    className="p-6 h-fit transition-all"
+                    className="p-2 sm:p-6 h-fit transition-all"
                 >
                     <div className="flex items-center justify-between">
                        <div className="flex items-center gap-6">
@@ -52,7 +52,7 @@ export default function Accordion({ data, className }) {
                                 {count}
                             </p>
                             <p 
-                                className="font-PPEdNewUltralight text-[#000] text-3xl w-[75%]"
+                                className="font-PPEdNewUltralight text-[#000] text-xl sm:text-3xl w-[75%]"
                             >
                                 {item.title}
                             </p>
