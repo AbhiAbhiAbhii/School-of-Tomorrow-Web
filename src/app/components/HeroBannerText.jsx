@@ -2,17 +2,17 @@ import HeroBannerDescription from "./HeroBannerDescription"
 
 export default function HeroBannerText() {
 
-  let textClassName = "font-PPEdNewUltralight text-[120px] xl:text-[142px] 3xl:text-[180px]"
+  let textClassName = "font-PPEdNewUltralight text-[60px] md:text-[120px] lg:text-[140px] lx:text-[120px] xl:text-[142px] 3xl:text-[180px]"
 
   return (
     <div className="text-[#FBFAED] w-full relative bottom-[12%] h-fit">
-      <p className={`${textClassName} relative top-14`}>
+      <p className={`${textClassName} relative md:top-14 md:left-0 top-6 left-[44%]`}>
         The future
       </p>
-      <p className={`${textClassName} grid place-content-end w-full`}>
+      <p className={`${textClassName} grid md:place-content-end w-full`}>
         <span className="mr-4 xl:mr-2 3xl:mr-36">of education is</span>
       </p>
-      <p className={`${textClassName} relative bottom-24`}>
+      <p className={`${textClassName} relative sm:bottom-6 md:bottom-24`}>
         here.
       </p>
       <HeroBannerDescription className='relative bottom-11' />

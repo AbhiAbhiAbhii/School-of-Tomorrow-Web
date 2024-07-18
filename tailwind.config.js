@@ -35,7 +35,7 @@ export const theme = {
     
     'lg': '1024px',
     // => @media (min-width: 1024px) { ... }
-    
+    'lx':'1120px',
     'xl': '1280px',
     // => @media (min-width: 1280px) { ... }
 

@@ -54,7 +54,7 @@ export default function SideBar() {
   const socialsComponent = <ul className='flex items-center gap-4'>{socials.map(item => <Icons key={item.id} item={item} />)}</ul>
 
   return (
-    <aside className="flex sticky top-0 left-0 h-fit w-[350px] 2xl:w-[400px] max-w-full">
+    <aside className="hidden sticky lx:flex top-0 left-0 h-fit w-[350px] 2xl:w-[400px] max-w-full">
       <Image 
         alt='img'
         height={100}

@@ -14,9 +14,9 @@ import PanelsShowcase from "./components/PanelsShowcase";
 export default function Home() {
 
   return (
-    <section className="flex justify-between gap-2 max-w-[2400px] mx-auto py-4 pr-6 relative h-auto">
+    <section className="flex justify-between gap-2 max-w-[2400px] mx-auto p-4 lx:py-4 lx:pr-6 relative h-auto">
       <SideBar />
-      <main className="w-[68%] flex flex-col">
+      <main className=" w-full lx:w-[68%] flex flex-col">
         <div className="w-full">
           <HeroBanner />
           <HeroBannerText />
