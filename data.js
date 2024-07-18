@@ -268,9 +268,10 @@ export const speakerDataC = [
 
 export const tableData = [
     { // Day I
+        id: 0,
         day: 'Day I',
-        date: 'August 05',
-        title: 'Innovation',
+        date: 'August 5',
+        title: 'Innovate',
         tableDetails: [
             {
                 time: '09:00',
@@ -319,9 +320,10 @@ export const tableData = [
             },
         ]
     },
-    {
+    { // Day II
+        id: 1,
         day: 'Day II',
-        date: 'August 06',
+        date: 'August 6',
         title: 'Collaborate',
         tableDetails: [
             {
@@ -366,9 +368,10 @@ export const tableData = [
             },
         ]
     },
-    {
+    { // Day III
+        id: 2,
         day: 'Day III',
-        date: 'August 07',
+        date: 'August 7',
         title: 'Transform',
         tableDetails: [
             {
@@ -407,14 +410,24 @@ export const tableData = [
                 text: 'Student-led Workshops'
             },
             {
-                time: '04:30',
-                icon: '/assets/talk-icon.svg',
-                text: 'SoT Durbar'
+                time: '03:30',
+                icon: '/assets/tea-break.svg',
+                text: 'Tea Break'
             },
             {
                 time: '07:00',
-                icon: '/assets/lunch-break.svg',
-                text: 'Lunch Break'
+                icon: '/assets/clip.svg',
+                text: 'Share Fair'
+            },
+            {
+                time: '05:00',
+                icon: '/assets/clip.svg',
+                text: 'Closing Ceremony'
+            },
+            {
+                time: '06:00',
+                icon: '/assets/clip.svg',
+                text: 'Bye Tea & Networking'
             },
         ]
     },
