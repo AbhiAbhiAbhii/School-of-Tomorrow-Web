@@ -58,7 +58,7 @@ export default function Accordion({ data, className }) {
                             </p>
                        </div>
                         <div 
-                            className={`${active === index ? 'rotate-active':'rotate-in-active'} transition-all`}
+                            className={`${active === index ? 'rotate-active':'rotate-in-active'} transition-all cursor-pointer`}
                             onClick={() => handleClick(index)}
                         >
                             <DynamicArrow 

@@ -7,6 +7,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --hex-clip-path: polygon(0 30%, 52% 0, 100% 33%, 100% 64%, 58% 100%, 0 74%);
+  --hex-clip-path-B: polygon(15% 0, 84% 0, 100% 64%, 84% 100%, 23% 100%, 0 82%, 0 17%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,7 +26,10 @@ body {
   -webkit-clip-path: var(--hex-clip-path);
   clip-path: var(--hex-clip-path);
 }
-
+.hex-B {
+  -webkit-clip-path: var(--hex-clip-path-B);
+  clip-path: var(--hex-clip-path-B);
+}
 .hover-me {
   flex: 1;
   transition: all 0.3s ease;
@@ -73,6 +77,16 @@ body {
 }
 .rotate-active {
   transform: rotate(-90deg);
+}
+
+.expand-75 {
+  width: 75%;
+  transition: all 0.5s ease;
+}
+
+.shrink-25 {
+  width: 25%;
+  transition: all 0.5s ease;
 }
 
 @keyframes fadeOut {

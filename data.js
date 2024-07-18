@@ -63,3 +63,66 @@ export const accordionData = [
     },
 
   ]
+
+  export const speakerDataA = [
+    {
+        src: '/assets/speakers/atul.jpeg',
+        name: 'Atul Thakkar',
+        title: 'Director at Anand Rathi Financial Services Limited',
+        link: 'https://www.linkedin.com/in/atul-thakkar-8286526'
+    },
+    {
+        src: '/assets/speakers/kushboo.jpeg',
+        name: 'Khushboo Awasthi',
+        title: 'Co-founder at Mantra4Change',
+        link: 'https://www.linkedin.com/in/khushboo-awasthi-m4c/'
+    },
+    {
+        src: '/assets/speakers/rahul.jpeg',
+        name: 'Rahul Gupta',
+        title: 'Founder at Rajalka Consulting',
+        link: 'https://www.linkedin.com/in/rahul-gupta-507571181/'
+    },
+]
+
+export const speakerDataB = [
+    {
+        src: '/assets/speakers/payal.jpeg',
+        name: 'Payal Patel',
+        title: 'Program Manager and Treasurer at Jayso Labs',
+        link: 'https://www.linkedin.com/in/payal-bhatt/'
+    },
+    {
+        src: '/assets/speakers/akash.jpeg',
+        name: 'Akash Burlawar',
+        title: 'Chief of Staff at Khan Academy',
+        link: 'https://www.linkedin.com/in/akashburlawar/'
+    },
+    {
+        src: '/assets/speakers/nidhi.png',
+        name: 'Nidhi Anarkat',
+        title: 'Co-founder and CEO at NavGurukul',
+        link: 'https://www.linkedin.com/in/nidhianarkat/'
+    },
+]
+
+export const speakerDataC = [
+    {
+        src: '/assets/speakers/utsav.jpeg',
+        name: 'Utsav Kheria',
+        title: 'Co-founder at Rocket Learning',
+        link: 'https://www.linkedin.com/in/utsav-kheria-0848494/'
+    },
+    {
+        src: '/assets/speakers/krish.jpeg',
+        name: 'Krish Sreedevi',
+        title: 'Co-founder at The School of Discovery',
+        link: 'https://www.linkedin.com/in/aksreedevi/'
+    },
+    {
+        src: '/assets/speakers/jana-iris.png',
+        name: 'Jana Iris',
+        title: 'TQ Ventures',
+        link: 'https://www.youtube.com/' // need new link
+    },
+]
