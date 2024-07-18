@@ -43,21 +43,35 @@ export default function BeliefShowcase() {
 
   return (
     <section className='space-y-24'>
-       <div className='font-PPEdNewUltralight text-[#FBFAED] text-6xl'>
-        <p>The beliefs that</p>
-        <p className='relative left-24'>shape our event</p>
+       <div className='font-PPEdNewUltralight text-[#FBFAED] text-5xl 2xl:text-6xl 3xl:text-8xl'>
+        <p>Experience the</p>
+        <p className='relative left-12'>school of tomorrow conference</p>
+        <p>
+            through
+        </p>
        </div>
-       <div className='flex gap-4'>
-        <div>
+       <div className='flex items-center gap-4'>
+        <div 
+            className={
+                `h-[300px] w-[300px] 3xl:h-[400px] 3xl:w-[400px]`
+            }
+        >
             <Image 
                 src='/assets/illustration-sparkle.svg'
                 alt='sparkle'
+                className='w-full h-full'
                 height={300}
                 width={300}
             />
         </div>
         <div className='space-y-20 w-full'>
-            <div className='flex gap-12 w-full ml-12'>
+            <div 
+                className={
+                    `flex gap-12 w-full ml-12
+                    2xl:gap-24
+                    `
+                }
+            >
                 <BeliefTextComponent 
                     data={upperData}
                 />
@@ -67,7 +81,13 @@ export default function BeliefShowcase() {
                     data={lowerData}
                 />
             </div>
-            <div className='flex gap-12 w-full ml-12'>
+            <div 
+                className={
+                    `flex gap-12 w-full ml-12
+                    2xl:gap-24
+                    `
+                }                
+            >
                 <BeliefTextComponent 
                     data={evenLowerData}
                 />

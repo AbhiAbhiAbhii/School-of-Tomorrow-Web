@@ -10,6 +10,7 @@ import LogoShowcase from "./components/LogoShowcase";
 import { Collaborators, OrganizerSVG } from "../../logoData";
 import TicketShowcase from "./components/TicketShowcase";
 import Link from "next/link";
+import PanelsShowcase from "./components/PanelsShowcase";
 
 export default function Home() {
 
@@ -25,7 +26,8 @@ export default function Home() {
           <HexShowcase />
           <BeliefShowcase />
           <SpeakerShowcase />
-          <WorkShopShowcase />
+          {/* <WorkShopShowcase /> */}
+          <PanelsShowcase />
           <Agenda />
           <LogoShowcase text='Organizers' data={OrganizerSVG} />
           <LogoShowcase text='Collaborators' data={Collaborators} />

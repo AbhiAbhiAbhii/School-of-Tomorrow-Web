@@ -43,6 +43,19 @@ body {
   flex: 1;
 }
 
+.custom-underline {
+  position: relative;
+}
+.custom-underline::after {
+  content: '';
+  position: absolute;
+  bottom: 12%;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #D4D4D4;
+}
+
 .fade-out {
   animation: fadeOut linear forwards 1s;
   animation-delay: 1s;
