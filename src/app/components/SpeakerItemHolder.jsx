@@ -5,9 +5,7 @@ import { useState } from 'react'
 
 export default function  SpeakerItemHolder({ data , isEven}) {
 
-  const [active, setActive] = useState(
-    isEven ? 2:0
-  )
+  const [active, setActive] = useState(isEven ? 2:0)
 
   const handleMouseOver = (i) => {
     setActive(i)
@@ -46,7 +44,7 @@ export default function  SpeakerItemHolder({ data , isEven}) {
                 />
               </div>
               <div className='text-[#D5D5D5]'>
-                <Link href={item.link} className='font-PPEdNewUltralight text-3xl custom-underline'>
+                <Link target='_blank' href={item.link} className='font-PPEdNewUltralight text-3xl custom-underline'>
                   {item.name}
                 </Link>
                 <p className='font-inter text-sm'>{item.title}</p>
