@@ -10,18 +10,20 @@ import { Collaborators, OrganizerSVG } from "../../data";
 import TicketShowcase from "./components/TicketShowcase";
 import Link from "next/link";
 import PanelsShowcase from "./components/PanelsShowcase";
+import NavBar from "./components/NavBar";
 
 export default function Home() {
 
   return (
-    <section className="sm:flex sm:justify-between gap-2 max-w-[2400px] mx-auto p-4 lx:py-4 lx:pr-6 relative h-auto">
+    <section className="flex-col mt-32 sm:mt-0 lx:flex-row sm:flex sm:justify-between gap-2 max-w-[2400px] mx-auto p-4 lx:py-4 lx:pr-6 relative h-auto">
       <SideBar />
+      <NavBar />
       <main className="sm:w-full lx:w-[68%] flex flex-col">
         <div className="w-full mb-12 sm:mb-0">
           <HeroBanner />
           <HeroBannerText />
         </div>
-        <div className="relative space-y-24 sm:bottom-24">
+        <div className="relative space-y-24 lx:bottom-24">
           <HexShowcase />
           <BeliefShowcase />
           <SpeakerShowcase />

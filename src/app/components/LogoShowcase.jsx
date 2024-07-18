@@ -17,7 +17,7 @@ export default function LogoShowcase({ text, data }) {
                 src={item.src}
                 height={180}
                 width={250}
-                className='object-contain'
+                className='sm:object-contain'
                 alt='logo'
               />
             </li>
