@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 
-export default function  SpeakerItemHolder({ data , isEven}) {
+export default function  SpeakerItemHolder({ data , isEven, className }) {
 
   const [active, setActive] = useState(isEven ? 2:0)
 
@@ -12,7 +12,7 @@ export default function  SpeakerItemHolder({ data , isEven}) {
   }
 
   return (
-    <div className='flex gap-2'>
+    <div className={`gap-2 ${className}`}>
         {data.map((item, index) => {
           let bgClassName
           switch(index) {

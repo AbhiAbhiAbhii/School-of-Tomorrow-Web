@@ -21,28 +21,21 @@ export default function HexShowcase() {
     ]
 
   return (
-    <section className='flex items-center justify-center w-full'>
+    <section className='hidden sm:flex items-center justify-center w-full'>
         {hexData.map((item, index) => {
             let bgColor, postion, textColor;
 
-            // if(item.id !== 1) {
-            //     bgColor='bg-purple'
-            //     textColor='text-white'
-            // } else {
-            //     bgColor='bg-[#FFD238]'
-            //     textColor='text-[#222427]'
-            // }
+            if(index === 0) postion='sm:left-6 -z[10]'
 
-            if(index === 0) postion='left-6 -z[10]'
-
-            if(index === 2) postion='right-6'
+            if(index === 2) postion='sm:right-6'
 
             return(
             <div key={item.id} className={`relative ${postion}`}>
                 <div
                     className={
                         `hex grid place-items-center bg-white overflow-hidden 
-                        h-[250px] w-[250px]
+                        h-[150px] w-[150px]
+                        sm:h-[250px] sm:w-[250px]
                         2xl:h-[300px] 2xl:w-[300px]
                         3xl:h-[400px] 3xl:w-[400px]`
                     }

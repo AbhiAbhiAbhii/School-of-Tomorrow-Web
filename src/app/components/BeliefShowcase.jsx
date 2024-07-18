@@ -1,5 +1,11 @@
+'use client'
 import Image from 'next/image'
 import BeliefTextComponent from './BeliefTextComponent'
+import {Swiper, SwiperSlide} from 'swiper/react';
+import 'swiper/css';
+import "swiper/css/free-mode";
+import 'swiper/css/navigation';
+
 
 export default function BeliefShowcase() {
     
@@ -41,19 +47,21 @@ export default function BeliefShowcase() {
         }
     ]
 
+    const mobData = [].concat([...upperData, ...lowerData, ...evenLowerData])
+
   return (
-    <section className='space-y-24'>
-       <div className='font-PPEdNewUltralight text-[#FBFAED] text-5xl 2xl:text-6xl 3xl:text-8xl'>
+    <section className='sm:space-y-24'>
+       <div className='font-PPEdNewUltralight text-[#FBFAED] text-5xl sm:text-5xl 2xl:text-6xl 3xl:text-8xl'>
         <p>Experience the</p>
-        <p className='relative left-12'>school of tomorrow conference</p>
+        <p className='relative sm:left-12'>school of tomorrow conference</p>
         <p>
             through
         </p>
        </div>
-       <div className='flex items-center gap-4'>
+       <div className='sm:flex items-center gap-4'>
         <div 
             className={
-                `h-[300px] w-[300px] 3xl:h-[400px] 3xl:w-[400px]`
+                `h-[200px] w-[200px] sm:h-[300px] sm:w-[300px] 3xl:h-[400px] 3xl:w-[400px] ml-auto`
             }
         >
             <Image 
@@ -64,7 +72,7 @@ export default function BeliefShowcase() {
                 width={300}
             />
         </div>
-        <div className='space-y-20 w-full'>
+        <div className='hidden sm:block space-y-20 w-full'>
             <div 
                 className={
                     `flex gap-12 w-full ml-12
@@ -92,6 +100,27 @@ export default function BeliefShowcase() {
                     data={evenLowerData}
                 />
             </div>
+        </div>
+        <div className='flex mt-12 sm:hidden'>
+            <Swiper
+                slidesPerView={1.6}
+            >
+                {mobData.map((item) => {
+                    return(
+                        <SwiperSlide
+                            key={item.id}
+                        >
+                            <div>
+                                <p className='flex flex-col gap-2 text-white w-[80%]'>
+                                    <span className='font-PPEdNewUltralight text-2xl'>[{item.id}]</span>
+                                    <span className='text-lg'>{item.title}</span>
+                                    <span className='font-inter text-sm w-full leading-5'>{item.text}</span>
+                                </p>
+                            </div>
+                        </SwiperSlide>
+                    )
+                })}
+            </Swiper>
         </div>
        </div>
     </section>

@@ -14,21 +14,20 @@ import PanelsShowcase from "./components/PanelsShowcase";
 export default function Home() {
 
   return (
-    <section className="flex justify-between gap-2 max-w-[2400px] mx-auto p-4 lx:py-4 lx:pr-6 relative h-auto">
+    <section className="sm:flex sm:justify-between gap-2 max-w-[2400px] mx-auto p-4 lx:py-4 lx:pr-6 relative h-auto">
       <SideBar />
-      <main className=" w-full lx:w-[68%] flex flex-col">
-        <div className="w-full">
+      <main className="sm:w-full lx:w-[68%] flex flex-col">
+        <div className="w-full mb-12 sm:mb-0">
           <HeroBanner />
           <HeroBannerText />
         </div>
-        <div className="relative space-y-24 bottom-24">
+        <div className="relative space-y-24 sm:bottom-24">
           <HexShowcase />
           <BeliefShowcase />
           <SpeakerShowcase />
           <PanelsShowcase />
           <Agenda />
           <LogoShowcase text='Organizers' data={OrganizerSVG} />
-          {/* <LogoShowcase text='Collaborators' data={Collaborators} /> */}
           <TicketShowcase />
           <div className="text-[#9D9D9D] font-inter flex justify-between">
             <p className="text-sm text-wrap">

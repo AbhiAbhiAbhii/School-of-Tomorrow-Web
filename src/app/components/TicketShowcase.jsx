@@ -3,7 +3,7 @@ import BlockA from "./SideBar/BlockA";
 export default function TicketShowcase() {
 
   return (
-    <section className='bg-[#FFD238] flex items-center justify-center py-24'>
+    <section className='bg-[#FFD238] hidden sm:flex items-center justify-center py-24'>
         <div className="font-PPEdNewUltralight text-purpleB text-8xl 2xl:text-9xl">
             <p>
               Register to <b>innovate</b>,
