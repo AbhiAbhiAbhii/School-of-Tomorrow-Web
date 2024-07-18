@@ -4,7 +4,6 @@ import HeroBannerText from "./components/HeroBannerText";
 import HexShowcase from "./components/HexShowcase";
 import BeliefShowcase from "./components/BeliefShowcase";
 import SpeakerShowcase from "./components/SpeakerShowcase";
-import WorkShopShowcase from "./components/WorkShopShowcase";
 import Agenda from "./components/Agenda";
 import LogoShowcase from "./components/LogoShowcase";
 import { Collaborators, OrganizerSVG } from "../../data";
@@ -26,7 +25,6 @@ export default function Home() {
           <HexShowcase />
           <BeliefShowcase />
           <SpeakerShowcase />
-          {/* <WorkShopShowcase /> */}
           <PanelsShowcase />
           <Agenda />
           <LogoShowcase text='Organizers' data={OrganizerSVG} />

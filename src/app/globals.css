@@ -60,6 +60,21 @@ body {
   animation: fadeOut linear forwards 1s;
   animation-delay: 1s;
 }
+
+.in-active-height {
+  max-height: 0px;
+}
+.active-height {
+  max-height: 1000px;
+}
+
+.rotate-in-active {
+  transform: rotate(90deg);
+}
+.rotate-active {
+  transform: rotate(-90deg);
+}
+
 @keyframes fadeOut {
   from {
     opacity: 1;

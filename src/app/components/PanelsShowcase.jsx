@@ -6,8 +6,8 @@ import { accordionData } from '../../../data'
 export default function PanelsShowcase() {
 
   return (
-    <section className='panels'>
-      <div className='font-PPEdNewUltralight space-y-8 text-[#FBFAED]'>
+    <section className='panels flex justify-between'>
+      <div className='font-PPEdNewUltralight space-y-8 text-[#FBFAED] sticky top-0 left-0 h-fit'>
         <p
           className={
             `text-5xl
@@ -21,7 +21,7 @@ export default function PanelsShowcase() {
           <span className='text-2xl'>RSVP Now</span> <DynamicArrow strokeColor="#FFD238" className='bg-prupleB h-[30px] w-[30px] p-1 rounded-full' />
         </div>
       </div>
-      <div>
+      <div className='w-[70%]'>
         <Accordion  
           data={accordionData}
         />
