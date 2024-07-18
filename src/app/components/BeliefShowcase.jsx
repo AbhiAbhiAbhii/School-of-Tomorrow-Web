@@ -57,7 +57,7 @@ export default function BeliefShowcase() {
             }
         >
             <Image 
-                src='/assets/illustration-sparkle.svg'
+                src='/assets/asset-sot.svg'
                 alt='sparkle'
                 className='w-full h-full'
                 height={300}
