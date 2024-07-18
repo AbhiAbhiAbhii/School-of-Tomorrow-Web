@@ -6,7 +6,7 @@ export default function TableVariant1({item, index, className, style}) {
   return (
     <div 
         className={`
-                h-[610px] border border-[#4D4C61] p-12 space-y-12
+                h-[580px] border border-[#4D4C61] py-12 px-8 sm:p-12 space-y-12
                 ${index === 2 ? 'bg-[#FFD238]':''} ${className}
             `}
             style={style}
@@ -14,10 +14,10 @@ export default function TableVariant1({item, index, className, style}) {
         <div className='space-y-6'>
             <p 
                 className={
-                    `flex ${index === 2 ? 'text-[#22203E]':'text-[#4D4C61]'} text-7xl font-PPEdNewUltralight`
+                    `flex ${index === 2 ? 'text-[#22203E]':'text-[#4D4C61]'} text-6xl sm:text-7xl font-PPEdNewUltralight`
                 }
             >
-                {item.date}<sup className='text-3xl'>{item.day}</sup>
+                {item.date}<sup className='text-lg sm:text-3xl'>{item.day}</sup>
             </p>
             <p
                 className={`font-inter font-semibold text-2xl ${index === 2 ? 'text-[#22203E]':'text-white'}`}
