@@ -28,7 +28,7 @@ export default function Home() {
           <PanelsShowcase />
           <Agenda />
           <LogoShowcase text='Organizers' data={OrganizerSVG} />
-          <LogoShowcase text='Collaborators' data={Collaborators} />
+          {/* <LogoShowcase text='Collaborators' data={Collaborators} /> */}
           <TicketShowcase />
           <div className="text-[#9D9D9D] font-inter flex justify-between">
             <p className="text-sm text-wrap">

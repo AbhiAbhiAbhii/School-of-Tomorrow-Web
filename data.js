@@ -80,7 +80,7 @@ export const accordionData = [
     {
         src: '/assets/speakers/rahul.jpeg',
         name: 'Rahul Gupta',
-        title: 'Founder at Rajalka Consulting',
+        title: 'Founder, CEO at Rajalka Consulting',
         link: 'https://www.linkedin.com/in/rahul-gupta-507571181/'
     },
 ]
@@ -119,12 +119,12 @@ export const speakerDataC = [
         title: 'Co-founder at The School of Discovery',
         link: 'https://www.linkedin.com/in/aksreedevi/'
     },
-    {
-        src: '/assets/speakers/jana-iris.png',
-        name: 'Jana Iris',
-        title: 'TQ Ventures',
-        link: 'https://www.youtube.com/' // need new link
-    },
+    // {
+    //     src: '/assets/speakers/jana-iris.png',
+    //     name: 'Jana Iris',
+    //     title: 'TQ Ventures',
+    //     link: 'https://www.youtube.com/' // need new link
+    // },
 ]
 
 
