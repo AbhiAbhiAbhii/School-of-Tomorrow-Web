@@ -42,7 +42,8 @@ export default function Accordion({ data, className }) {
                     style={{
                         background: `${randomColors[index]}`
                     }}
-                    className="p-2 sm:p-6 h-fit transition-all"
+                    onClick={() => handleClick(index)}
+                    className="p-2 sm:p-6 h-fit transition-all cursor-pointer"
                 >
                     <div className="flex items-center justify-between">
                        <div className="flex items-center gap-6">
@@ -59,7 +60,6 @@ export default function Accordion({ data, className }) {
                        </div>
                         <div 
                             className={`${active === index ? 'rotate-active':'rotate-in-active'} transition-all cursor-pointer`}
-                            onClick={() => handleClick(index)}
                         >
                             <DynamicArrow 
                                 strokeColor='#22203E'
