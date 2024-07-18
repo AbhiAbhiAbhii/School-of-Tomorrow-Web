@@ -6,14 +6,18 @@ export default function LogoShowcase({ text, data }) {
   return (
     <div className='space-y-6'>
       <Eyebrow isSingle text={text} />
-      <ul className='flex flex-wrap gap-2 w-full'>
+      <ul className='flex flex-wrap w-full'>
         {data.map((item) => {
           return(
-            <li key={item.id}>
+            <li 
+              className='border mb-3 border-[#FFD33A] grid place-items-center' 
+              key={item.id}
+            >
               <Image 
                 src={item.src}
                 height={180}
-                width={180}
+                width={250}
+                className='object-contain'
                 alt='logo'
               />
             </li>

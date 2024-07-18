@@ -48,7 +48,7 @@ export default function SideBarLinks({item}) {
                 }
             })
         }, {threshold: 0.8})
-        thirdObserver.observe(document.querySelector('.workshops'))
+        thirdObserver.observe(document.querySelector('.panels'))
 
         const fourthObserver = new IntersectionObserver(entries => {
             entries.forEach(entry => {

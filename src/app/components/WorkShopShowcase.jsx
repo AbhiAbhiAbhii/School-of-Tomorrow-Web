@@ -23,7 +23,7 @@ export default function WorkShopShowcase() {
     ]
 
   return (
-    <section className='workshops scroll-m-7 w-full'>
+    <section className='panels scroll-m-7 w-full'>
         <div className='flex items-center justify-between flex-wrap-reverse w-full'>
             <WorkShopCards data={cardData} />
             <div className='font-PPEdNewUltralight space-y-2 w-fit mr-4'>

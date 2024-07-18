@@ -14,3 +14,8 @@ export default function TicketShowcase() {
     </section>
   )
 }
+
+/* 
+  Change to 
+  Register to innovate, collaborate and transform the Schools of Tomorrow
+*/

@@ -13,9 +13,8 @@ import Link from "next/link";
 
 export default function Home() {
 
-
   return (
-    <section className="flex justify-between gap-2 max-w-screen-2xl mx-auto py-4 pr-6 relative h-auto">
+    <section className="flex justify-between gap-2 max-w-[2400px] mx-auto py-4 pr-6 relative h-auto">
       <SideBar />
       <main className="w-[68%] flex flex-col">
         <div className="w-full">
