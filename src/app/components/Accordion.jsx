@@ -70,7 +70,7 @@ export default function Accordion({ data, className }) {
                     <div
                         className={`overflow-hidden ${active === index ? 'active-height mt-4': 'in-active-height mt-0'} transition-all`}
                     >
-                        <p className="text-[#22203E] font-inter font-semibold leading-5 text-sm">
+                        <p className="text-[#22203E] font-inter font-semibold leading-4 sm:leading-5 text-xs sm:text-sm">
                             {item.description}
                         </p>
                     </div>
