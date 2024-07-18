@@ -29,11 +29,11 @@ export default function Home() {
           <Agenda />
           <LogoShowcase text='Organizers' data={OrganizerSVG} />
           <TicketShowcase />
-          <div className="text-[#9D9D9D] font-inter flex justify-between">
+          <div className="text-[#9D9D9D] font-inter flex flex-col md:flex-row justify-between">
             <p className="text-sm text-wrap">
             COPYRIGHT © 2024  SCHOOL OF TOMORROW © ALL RIGHTS RESERVED
             </p>
-            <Link className="text-sm" href='https://www.gradical.xyz/'>
+            <Link className="mt-4 md:mt-0 text-sm" href='https://www.gradical.xyz/'>
               BY GRADICAL
             </Link>
           </div>
