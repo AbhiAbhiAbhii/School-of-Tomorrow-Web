@@ -1,14 +1,15 @@
 import Image from "next/image"
 
-export default function TableVariant1({item, index}) {
+export default function TableVariant1({item, index, className, style}) {
 
 
   return (
     <div 
         className={`
                 h-[610px] border border-[#4D4C61] p-12 space-y-12
-                ${index === 2 ? 'bg-[#FFD238]':''}
+                ${index === 2 ? 'bg-[#FFD238]':''} ${className}
             `}
+            style={style}
     >
         <div className='space-y-6'>
             <p 
