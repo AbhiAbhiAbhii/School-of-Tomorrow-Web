@@ -26,13 +26,33 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "School of tomorrow",
-  description: "Welcome to School of tomorrow",
+  title: "School of Tommorrow | Pune, August 5-7 | Innovate, Collaborate and Transform",
+  description: "Schools of Tomorrow aims to invest in School Leaders - the conductors who make India’s schools run",
+  alternates: {
+    languages: {
+      'en-US': '/en-US',
+      'de-DE': '/de-DE',
+    },
+  },
+  openGraph: {
+    title: 'School of Tommorrow | Pune, August 5-7 | Innovate, Collaborate and Transform',
+    description: 'Schools of Tomorrow aims to invest in School Leaders - the conductors who make India’s schools run',
+    images: '/meta-img.png'
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* <link rel="alternate" hreflang="en-US" href="/en-US" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" /> */}
+        <meta property="og:image" content="/meta-img.png" />
+        <meta property="twitter:image" content="/meta-img.png" />
+      </head>
       <body className={`${PPEdNewRegular.variable} ${PPEdNewUltrabold.variable} ${PPEdNewUltralight.variable} ${inter.variable}`}>
         {children}
       </body>

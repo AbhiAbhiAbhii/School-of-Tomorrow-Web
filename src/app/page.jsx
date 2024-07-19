@@ -44,3 +44,15 @@ export default function Home() {
     </section>
   )
 }
+
+
+export async function generateMetadata() {
+
+  return {
+    title: 'School of Tommorrow | Pune, August 5-7 | Innovate, Collaborate and Transform',
+    description: 'Schools of Tomorrow aims to invest in School Leaders - the conductors who make India’s schools run"',
+    openGraph: {
+      images: ['/meta-img.png']
+    }
+  };
+}
