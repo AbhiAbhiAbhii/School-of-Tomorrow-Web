@@ -4,6 +4,7 @@ import Eyebrow from './Eyebrow'
 import AgendaCard from './AgendaCard'
 import { tableData } from '../../../data'
 import TableVariant1 from './Table/TableVariant1'
+import Image from 'next/image'
 
 export default function Agenda() {
 
@@ -35,11 +36,19 @@ export default function Agenda() {
     if(active === 2) style = '100%'
 
   return (
-    <div className='agenda scroll-m-7 space-y-12'>
+    <div className='agenda scroll-m-7 space-y-12 relative'>
+        {/* <Image 
+            src="/hand.svg"
+            alt='hand'
+            height={200}
+            width={200}
+            className='hidden xl:block absolute top-0 -right-16'
+        /> */}
         <Eyebrow 
             text='Program Agenda'
             isSingle 
             className='!justify-center sm:!justify-between mx-auto md:mx-0'
+            textClass={'xl:!text-7xl'}
         />
         <div
             className='relative sm:hidden flex justify-between' 
