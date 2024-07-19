@@ -7,7 +7,7 @@ export default function PanelsShowcase() {
 
   return (
     <section className='panels sm:flex sm:justify-between'>
-      <div className='font-PPEdNewUltralight sm:space-y-8 text-[#FBFAED] flex items-center justify-between sm:flex-col sm:items-start sm:sticky sm:top-2 sm:left-0 h-fit'>
+      <div className='font-PPEdNewUltralight sm:space-y-8 text-[#FBFAED] flex items-center justify-between sm:flex-col sm:items-start sm:sticky sm:top-2 sm:left-0 !h-fit'>
         <p
           className={
             `text-5xl
