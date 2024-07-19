@@ -6,7 +6,7 @@ export default function HeroBannerText() {
 
   return (
     <div className="text-[#FBFAED] leading-[4rem] sm:leading-none w-full relative bottom-[12%] h-fit">
-      <p className={`${textClassName} relative lg:top-8 sm:left-0 sm:top-6 lg:left-1 w-fit`}>
+      <p className={`${textClassName} relative lg:top-8 sm:left-0 sm:top-[-20%] md:top-6 lg:left-1 w-fit`}>
         The future
       </p>
       <p className={`${textClassName} grid sm:relative sm:top-6 3xl:top-0 lg:place-content-end w-full`}>

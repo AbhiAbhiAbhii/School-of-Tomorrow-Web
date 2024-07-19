@@ -128,144 +128,6 @@ export const speakerDataC = [
 ]
 
 
-// export const tableData = [
-//     {
-//         day: 'Day I',
-//         date: 'August 05',
-//         description: 'Innovate',
-//         table: [
-//             {
-//                 id: 0,
-//                 time: '9:00 - 10:00',
-//                 tableDetails: [
-//                     {
-//                         title: 'Opening and key note',
-//                         icon: '/assets/hand-wave.svg',
-//                         facillitator: '',
-//                         description: ''   
-//                     },
-//                 ]
-//             },
-//             {
-//                 id: 1,
-//                 time: '10:30 - 12:00',
-//                 tableDetails: [
-//                     {
-//                         title: 'Masterclass 1: School Re-tool for hacking innovation in existing schools',
-//                         icon: '/assets/talk-icon.svg',
-//                         facillitator: 'Tropic Design and Innovation',
-//                         description: ''
-//                     },
-//                     {
-//                         title: 'Masterclass 2: Building a theory of change/theory of problem to design your school from scratch',
-//                         icon: '/assets/talk-icon.svg',
-//                         facillitator: 'The Circle',
-//                         description: ''
-//                     }, 
-//                 ]            
-//             },
-//             {
-//                 id: 2,
-//                 time: '12:00 - 01:15',
-//                 tableDetails: [
-//                     {
-//                         title: 'Masterclass 3: Igniting a Movement of Young Changemakers',
-//                         icon: '/assets/talk-icon.svg',
-//                         facillitator: 'Reap Benefit',
-//                         description: 'Enabling students to solve real - world problems is a larger purpose of education.' 
-//                     },    
-//                     {
-//                         title: 'Masterclass 4: Leaders of tomorrow, leaders of today - The Avasara Way',
-//                         icon: '/assets/talk-icon.svg',
-//                         facillitator: 'Avasara Academy',
-//                         description: 'Exploring how Avasara leverages their programming and spaces to build student leadership.'
-//                     }, 
-//                 ]
-//             },
-//             {
-//                 id: 3,
-//                 time: '01:15',
-//                 tableDetails: [
-//                     {
-//                         title: 'Lunch Break',
-//                         icon: '/assets/lunch-break.svg',
-//                         facillitator: '',
-//                         description: '' 
-//                     }
-//                 ]
-//             },
-//             {
-//                 id: 4,
-//                 time: '02:15 - 03:30',
-//                 tableDetails: [
-//                     {
-//                         title: 'Masterclass 5: Nurturing, developing and creating the ideal school culture - Our role as Leaders and Coaches. ',
-//                         icon: '/assets/talk-icon.svg',
-//                         facillitator: 'Avasara Academy',
-//                         description: 'You are only as good as your team! How do we effectively develop and empower our teams?' 
-//                     },
-//                     {
-//                         title: 'Masterclass 6 ',
-//                         icon: '/assets/talk-icon.svg',
-//                         facillitator: 'Avasara Academy',
-//                         description: 'You are only as good as your team! How do we effectively develop and empower our teams?' 
-//                     },
-//                 ]
-//             },
-//         ]
-//     },
-//     {
-//         day: 'Day II',
-//         date: 'August 06',
-//         description: 'Collaborate',
-//         table: [
-//             {
-//                 id: 0,
-//                 time: '10:00',
-//                 icon: '/assets/hand-wave.svg',
-//                 description: 'Welcome from Scott & Saron'
-//             },
-//             {
-//                 id: 1,
-//                 time: '10:00',
-//                 icon: '/assets/talk-icon.svg',
-//                 description: 'Welcome from Scott & Saron'
-//             },
-//             {
-//                 id: 2,
-//                 time: '10:00',
-//                 icon: '/assets/talk-icon.svg',
-//                 description: 'Welcome from Scott & Saron'
-//             },
-//         ]
-//     },
-//     {
-//         day: 'Day III',
-//         date: 'August 07',
-//         description: 'Transform',
-//         table: [
-//             {
-//                 id: 0,
-//                 time: '10:00',
-//                 icon: '/assets/hand-wave.svg',
-//                 description: 'Welcome from Scott & Saron'
-//             },
-//             {
-//                 id: 1,
-//                 time: '10:00',
-//                 icon: '/assets/talk-icon.svg',
-//                 description: 'Welcome from Scott & Saron'
-//             },
-//             {
-//                 id: 2,
-//                 time: '10:00',
-//                 icon: '/assets/talk-icon.svg',
-//                 description: 'Welcome from Scott & Saron'
-//             },
-//         ]
-//     },
-// ]
-
 export const tableData = [
     { // Day I
         id: 0,
@@ -310,7 +172,7 @@ export const tableData = [
             },
             {
                 time: '04:30',
-                icon: '/assets/talk-icon.svg',
+                icon: '/assets/durbar.svg',
                 text: 'SoT Durbar'
             },
             {
@@ -421,12 +283,12 @@ export const tableData = [
             },
             {
                 time: '05:00',
-                icon: '/assets/clip.svg',
+                icon: '/assets/talk-icon.svg',
                 text: 'Closing Ceremony'
             },
             {
                 time: '06:00',
-                icon: '/assets/clip.svg',
+                icon: '/assets/tea-break.svg',
                 text: 'Bye Tea & Networking'
             },
         ]
