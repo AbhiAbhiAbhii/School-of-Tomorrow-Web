@@ -33,7 +33,7 @@ export default function Home() {
           <TicketShowcase />
           <div className="text-[#9D9D9D] font-inter flex flex-col md:flex-row justify-between">
             <p className="text-sm text-wrap">
-            COPYRIGHT © 2024  SCHOOL OF TOMORROW © ALL RIGHTS RESERVED
+            COPYRIGHT © 2024  SCHOOLS OF TOMORROW © ALL RIGHTS RESERVED
             </p>
             <Link className="mt-4 md:mt-0 text-sm" href='https://www.gradical.xyz/'>
               BY GRADICAL
