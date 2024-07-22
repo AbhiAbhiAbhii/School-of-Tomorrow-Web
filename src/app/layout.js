@@ -26,7 +26,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "Schools of Tommorrow | Pune, August 5-7 | Innovate, Collaborate and Transform",
+  title: "Schools of Tomorrow | Pune, August 07 | Innovate, Collaborate and Transform",
   description: "Schools of Tomorrow aims to invest in School Leaders - the conductors who make India’s schools run",
   alternates: {
     languages: {
@@ -35,7 +35,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'Schools of Tommorrow | Pune, August 5-7 | Innovate, Collaborate and Transform',
+    title: 'Schools of Tomorrow | Pune, August 07 | Innovate, Collaborate and Transform',
     description: 'Schools of Tomorrow aims to invest in School Leaders - the conductors who make India’s schools run',
     images: '/meta-img.png'
   }

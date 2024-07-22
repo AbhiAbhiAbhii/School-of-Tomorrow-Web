@@ -1,7 +1,7 @@
 import Image from "next/image"
+import BlockA from "../SideBar/BlockA"
 
 export default function TableVariant1({item, index, className, style}) {
-
 
   return (
     <div 
@@ -51,6 +51,11 @@ export default function TableVariant1({item, index, className, style}) {
                 </table>
             </ul>
         </div>
+        {index === 2 && (
+            <BlockA 
+                className='!mt-4'
+            />
+        )}
     </div>
   )
 }

@@ -268,19 +268,19 @@ export const tableData = [
             },
             {
                 time: '02:30',
-                icon: '/assets/talk-icon.svg',
-                text: 'Student-led Workshops'
-            },
-            {
-                time: '03:30',
-                icon: '/assets/tea-break.svg',
-                text: 'Tea Break'
-            },
-            {
-                time: '07:00',
                 icon: '/assets/clip.svg',
                 text: 'Share Fair'
             },
+            {
+                time: '03:30',
+                icon: '/assets/talk-icon.svg',
+                text: 'Student-led Workshops'
+            },
+            // {
+            //     time: '03:30',
+            //     icon: '/assets/tea-break.svg',
+            //     text: 'Tea Break'
+            // },
             {
                 time: '05:00',
                 icon: '/assets/talk-icon.svg',

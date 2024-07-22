@@ -10,7 +10,7 @@ import SideBarLinks from './SideBarLinks'
 import Icons from './Icons'
 
 export default function SideBar() {
-  let textA =<p className="font-PPEdNewRegular text-purpleB tracking-tighter text-6xl flex gap-2">5-7<sup className="text-sm tracking-normal">TH</sup></p>
+  let textA =<p className="font-PPEdNewRegular text-purpleB tracking-tighter text-6xl flex gap-2">07<sup className="text-sm tracking-normal">TH</sup></p>
   let textB = <p className="font-inter text-purpleB font-bold text-2xl leading-7 tracking-tighter">Buntara Bhavan, <br />Baner, Pune</p>
 
   const socials = [

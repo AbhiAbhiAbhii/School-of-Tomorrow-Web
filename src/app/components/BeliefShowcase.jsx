@@ -13,12 +13,12 @@ export default function BeliefShowcase() {
         {
             id: '01',
             title: 'Masterclasses by Industry Experts',
-            text: "In-depth insights and knowledge or specific topics related to the conferences"
+            text: "In-depth insights and knowledge or specific topics related to the conference's theme"
         },
         {
             id: '02',
             title: 'Learning Workshops',
-            text: 'Practice design-insights and tools, focused on solving real-world challenges in Schools across Pune'
+            text: 'Practice designs insights and tools, focused on solving real-world challenges in Schools across Pune'
         }
     ]
 
