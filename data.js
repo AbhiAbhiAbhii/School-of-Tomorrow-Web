@@ -62,7 +62,7 @@ export const accordionData = [
       description: `An important purpose of education is to build strong citizens of the world. All learning experiences, ideally should be building up to this larger purpose. To effectively influence change at any level, we need knowledge, skills, mindsets and networks. In what ways have you contributed to building your school/community/society/nation? What learning experiences have helped you influence this change? As you think about experiences that shaped your development as a citizen, think about whether these were planned or unplanned, self driven or created by another, in the classroom, school or outside. If you had to design learning experiences that enable us to build the nation, what would you design? What knowledge, skills, mindsets, networks would you design for?`
     },
 
-  ]
+]
 
   export const speakerDataA = [
     {

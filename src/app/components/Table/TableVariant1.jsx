@@ -6,12 +6,25 @@ export default function TableVariant1({item, index, className, style}) {
   return (
     <div 
         className={`
-                h-[580px] border border-[#4D4C61] py-12 px-8 sm:p-12 space-y-12
+                h-[660px] border border-[#4D4C61] py-12 px-8 sm:p-12 space-y-12
                 ${index === 2 ? 'bg-[#FFD238]':''} ${className}
             `}
             style={style}
     >
         <div className='space-y-6'>
+            <div className="absi">
+                <Image 
+                    src={
+                        index !== 2 ?
+                        "/registration-close.svg"
+                        :
+                        "/Registration-open.svg"
+                    }
+                    alt="img"
+                    height={56}
+                    width={56}
+                />
+            </div>
             <p 
                 className={
                     `flex ${index === 2 ? 'text-[#22203E]':'text-[#4D4C61]'} text-6xl sm:text-7xl font-PPEdNewUltralight`
