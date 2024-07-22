@@ -89,19 +89,19 @@ body {
   transition: all 0.5s ease;
 }
 .agenda-scroll::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: rgba(255, 255, 255);
   background-color: #FFFF;
 }
 
 .agenda-scroll::-webkit-scrollbar {
-  width: 4px;
-  background-color: #aaaaaa;
+  width: 2px;
+  background-color: #FFFF;
 }
 
 .agenda-scroll::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px #D4396A;
+  background: #D4396A;
 
 }
 
