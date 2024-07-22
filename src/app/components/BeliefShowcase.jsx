@@ -103,7 +103,7 @@ export default function BeliefShowcase() {
         </div>
         <div className='flex mt-12 sm:hidden'>
             <Swiper
-                slidesPerView={1.6}
+                slidesPerView={1.9}
             >
                 {mobData.map((item) => {
                     return(
@@ -111,7 +111,7 @@ export default function BeliefShowcase() {
                             key={item.id}
                         >
                             <div>
-                                <p className='flex flex-col gap-2 text-white w-[80%]'>
+                                <p className='flex flex-col gap-2 text-white w-[90%]'>
                                     <span className='font-PPEdNewUltralight text-2xl'>[{item.id}]</span>
                                     <span className='text-lg'>{item.title}</span>
                                     <span className='font-inter text-sm w-full leading-5'>{item.text}</span>
