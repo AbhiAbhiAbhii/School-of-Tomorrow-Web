@@ -2,23 +2,23 @@
 export const OrganizerSVG = [
     {
         id:0,
-        src: '/assets/logos/akanksha.svg'
+        src: '/assets/logo/akanksha.svg'
     },
     {
         id:0,
-        src: '/assets/logos/i-teach-schools.svg'
+        src: '/assets/logo/i-teach-schools.svg'
     },
     {
         id:0,
-        src: '/assets/logos/teach-for-all.svg'
+        src: '/assets/logo/teach-for-all.svg'
     },
     {
         id:0,
-        src: '/assets/logos/teach-for-india.svg'
+        src: '/assets/logo/teach-for-india.svg'
     },
     {
         id:0,
-        src: '/assets/logos/the-circle.svg'
+        src: '/assets/logo/the-circle.svg'
     },
 ]
 export const Collaborators = [

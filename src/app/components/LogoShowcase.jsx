@@ -6,7 +6,7 @@ export default function LogoShowcase({ text, data }) {
   return (
     <div className='space-y-6'>
       <Eyebrow isSingle text={text} />
-      <ul className='flex flex-wrap w-full'>
+      <ul className='flex flex-wrap w-full gap-2'>
         {data.map((item) => {
           return(
             <li 
