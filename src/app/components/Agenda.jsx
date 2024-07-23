@@ -87,16 +87,13 @@ export default function Agenda() {
         </div>
             <div className='sm:hidden'>
                 {
-                    tableData.map((item, index) => {
-                        return  <TableVariant1 style={{display: active === index ? '':'none'}} index={index} key={item.id} item={item} />
-                    })
+                    tableData.map((item, index) => <TableVariant1 style={{display: active === index ? '':'none'}} index={index} key={item.id} item={item} />)
                 }
             </div>
         <div className='hidden sm:flex flex-wrap gap-4 w-full'>
             {
-                tableData.map((item, index) => {
-                    return  <TableVariant1 index={index} key={item.id} item={item} />
-                })
+                tableData.map((item, index) => <TableVariant1 index={index} key={item.id} item={item} />
+                )
             }
         </div>
     </div>

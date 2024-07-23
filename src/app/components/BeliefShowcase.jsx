@@ -13,12 +13,12 @@ export default function BeliefShowcase() {
         {
             id: '01',
             title: 'Masterclasses by Industry Experts',
-            text: "In-depth insights and knowledge or specific topics related to the conference's theme"
+            text: "In-depth insights and knowledge on specific topics related to the conference's theme"
         },
         {
             id: '02',
             title: 'Learning Workshops',
-            text: 'Practice designs insights and tools, focused on solving real-world challenges in Schools across Pune'
+            text: 'Practical design insights and tools, focused on solving real-world challenges in Schools across Pune'
         }
     ]
 
@@ -26,24 +26,24 @@ export default function BeliefShowcase() {
         {
             id: '03',
             title: 'Insight Panels',
-            text: 'Breakdown-topic surgent and deeply relevant to the cause of building future-reedy schools initiate spans and inspiration to take forward'
+            text: 'Break down topics urgent and deeply relevant to the cause of building future-ready schools. Initiate sparks and inspiration to take forward'
         }, 
         {
             id: '04',
             title: 'Hackathon',
-            text: 'Unconference format to design prototype rapid and collaborative manner. cuminating into a community procation'
+            text: 'Unconference format to design prototypes rapid and collaborative manner. culminating into a community pitchathon'
         }
     ]
     const evenLowerData = [
         {
             id: '05',
             title: 'Keynote Sessions',
-            text: 'Insights and inspiration as well bessert the tone for the rest of the conference by studentleaders and industry experts'
+            text: 'Insights and inspiration as well as set the tone for the rest of the conference by student leaders and industry experts'
         }, 
         {
             id: '06',
             title: 'Exhibits & Pop-Up Studios',
-            text: 'Exemplary concepts and installations, Ever outcortes by urgs und schools across the country.'
+            text: 'Exemplary concepts and installations, live outcomes by orgs and schools across the country.'
         }
     ]
 
