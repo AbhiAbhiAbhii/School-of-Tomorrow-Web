@@ -273,21 +273,21 @@ export const tableData = [
             },
             {
                 time: '03:30',
+                icon: '/assets/tea-break.svg',
+                text: 'Tea Break'
+            },
+            {
+                time: '04:00',
                 icon: '/assets/talk-icon.svg',
                 text: 'Student-led Workshops'
             },
-            // {
-            //     time: '03:30',
-            //     icon: '/assets/tea-break.svg',
-            //     text: 'Tea Break'
-            // },
             {
-                time: '05:00',
+                time: '05:45',
                 icon: '/assets/talk-icon.svg',
                 text: 'Closing Ceremony'
             },
             {
-                time: '06:00',
+                time: '06:30',
                 icon: '/assets/tea-break.svg',
                 text: 'Bye Tea & Networking'
             },
