@@ -10,7 +10,7 @@ export default function Logo() {
         width={220}
         src={SOTLogo}
         className='h-full w-full'
-        alt="School of tomorrow"
+        alt="Schools of tomorrow"
       />
     </div>
   )
