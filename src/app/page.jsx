@@ -6,7 +6,7 @@ import BeliefShowcase from "./components/BeliefShowcase";
 import SpeakerShowcase from "./components/SpeakerShowcase";
 import Agenda from "./components/Agenda";
 import LogoShowcase from "./components/LogoShowcase";
-import { Collaborators, OrganizerSVG } from "../../data";
+import { Collaborators, logoB, OrganizerSVG } from "../../data";
 import TicketShowcase from "./components/TicketShowcase";
 import Link from "next/link";
 import PanelsShowcase from "./components/PanelsShowcase";
@@ -29,7 +29,8 @@ export default function Home() {
           <SpeakerShowcase />
           <PanelsShowcase />
           <Agenda />
-          <LogoShowcase text='Our Communication and Media Partner' data={OrganizerSVG} />
+          <LogoShowcase text='Organizers' data={OrganizerSVG} />
+          <LogoShowcase text='Our Communication and Media Partner' data={logoB} />
           <TicketShowcase />
           <div className="text-[#9D9D9D] font-inter flex flex-col md:flex-row justify-between">
             <p className="text-sm text-wrap">

@@ -19,16 +19,19 @@ export const OrganizerSVG = [
     {
         id:4,
         src: '/assets/logo/the-circle.svg'
-    },
+    }
+]
+export const logoB = [
     {
-        id:5,
+        id:0,
         src: '/assets/logo/SL.svg'
     },
     {
-        id:6,
+        id:1,
         src: '/assets/logo/Light_House-Studios.svg'
     },
 ]
+
 export const Collaborators = [
     {
         id: 0,
