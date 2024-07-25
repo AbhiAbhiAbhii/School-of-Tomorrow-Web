@@ -30,7 +30,7 @@ export default function Home() {
           <PanelsShowcase />
           <Agenda />
           <LogoShowcase text='Organizers' data={OrganizerSVG} />
-          <LogoShowcase text='Our Communication and Media Partner' data={logoB} />
+          <LogoShowcase text='Our Communication and Media Partners' data={logoB} />
           <TicketShowcase />
           <div className="text-[#9D9D9D] font-inter flex flex-col md:flex-row justify-between">
             <p className="text-sm text-wrap">
