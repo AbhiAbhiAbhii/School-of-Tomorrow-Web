@@ -40,10 +40,7 @@ export default function TableVariant1({item, index, className, style}) {
         </div>
 
         {/* Render table */}
-
-        <div
-            className='agenda-scroll overflow-y-scroll h-[250px]'
-        >
+        <div className='agenda-scroll overflow-y-scroll h-[250px]'>
             <ul>
                 <table className='w-full'>
                     <tbody 
@@ -73,7 +70,6 @@ export default function TableVariant1({item, index, className, style}) {
             <div
                 className={`flex items-center justify-center gap-2 py-2 bg-white opacity-45 !mt-4 rounded-sm ${className}`}
                 target='_blank'
-                href='https://docs.google.com/forms/d/e/1FAIpQLSdfhQ-XhnXIebqcIifyQqZ-kcN7KgEgdpE-VRSKKJoopzpP5g/viewform'
             >
                 <p className="font-PPEdNewRegular text-purpleB text-[30px]">
                     Registration closed

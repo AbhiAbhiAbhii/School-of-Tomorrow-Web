@@ -5,20 +5,24 @@ export const OrganizerSVG = [
         src: '/assets/logo/akanksha.svg'
     },
     {
-        id:0,
+        id:1,
         src: '/assets/logo/i-teach-schools.svg'
     },
     {
-        id:0,
+        id:2,
         src: '/assets/logo/teach-for-all.svg'
     },
     {
-        id:0,
+        id:3,
         src: '/assets/logo/teach-for-india.svg'
     },
     {
-        id:0,
+        id:4,
         src: '/assets/logo/the-circle.svg'
+    },
+    {
+        id:4,
+        src: '/assets/logo/SL.svg'
     },
 ]
 export const Collaborators = [
@@ -119,14 +123,75 @@ export const speakerDataC = [
         title: 'Co-founder at The School of Discovery',
         link: 'https://www.linkedin.com/in/aksreedevi/'
     },
+    {
+        src: '/assets/speakers/Aparna_Priyadarsini.jpg',
+        name: 'Aparna Priyadarsini Mudaliat',
+        title: 'Curriculum Lead',
+        link: 'https://www.linkedin.com/in/aparna-priyadarsini-2110833/?trk=contact-info'
+    },
+]
+
+export const speakerDataNew = [
+    {
+        src: '/assets/speakers/Shekhar_Singh.jpg',
+        name: 'Shekhar Singh',
+        title: 'Municipal Commissioner',
+        link: 'https://www.linkedin.com/in/shekhar-singh-0297735/'
+    },
+    {
+        src: '/assets/speakers/mridul_batra.jpg',
+        name: 'Mridul Batra',
+        title: 'Co-founder and School Leader',
+        link: 'https://www.linkedin.com/in/mridul/'
+    },
+    {
+        src: '/assets/speakers/Nandita_Deosthale.jpg',
+        name: 'Nandita Deosthale',
+        title: 'Co-founder',
+        link: 'https://www.linkedin.com/in/nandita-deosthale-36a90719/'
+    },
+]
+
+export const speakerDataNewB = [
+    {
+        src: '/assets/speakers/Aparna_Priyadarsini.jpg',
+        name: 'Aparna Priyadarsini Mudaliat',
+        title: 'Curriculum Lead',
+        link: 'https://www.linkedin.com/in/aparna-priyadarsini-2110833/?trk=contact-info'
+    },
     // {
-    //     src: '/assets/speakers/jana-iris.png',
-    //     name: 'Jana Iris',
-    //     title: 'TQ Ventures',
-    //     link: 'https://www.youtube.com/' // need new link
+    //     src: '/assets/speakers/mridul_batra.jpg',
+    //     name: 'Mridul Batra',
+    //     title: 'Co-founder and School Leader',
+    //     link: 'https://www.linkedin.com/in/mridul/'
+    // },
+    // {
+    //     src: '/assets/speakers/Nandita_Deosthale.jpg',
+    //     name: 'Nandita Deosthale',
+    //     title: 'Co-founder',
+    //     link: 'https://www.linkedin.com/in/nandita-deosthale-36a90719/'
     // },
 ]
 
+
+
+/* 
+Have to add, Shekhar Singh (should be the first image - he is the highlight), 
+Mridul Batra, Nandita, Aparna, Sharanya, Sanya, Shaheen, Sandeep
+
+    ADD NEW GUEST SPEAKERS
+    1.)Shekhar Singh (I.A.S.)
+        LINK: https://www.linkedin.com/in/shekhar-singh-0297735/ done
+    2.) Mridul Batra
+        LINK: done
+    3.) Nandita done
+    4.) Aparna done
+    5.) Sharanya not found
+    6.) Sanya not found
+    7.) Shaheen not found
+    8.) Sandeep
+         
+*/
 
 export const tableData = [
     { // Day I

@@ -29,14 +29,14 @@ export default function Home() {
           <SpeakerShowcase />
           <PanelsShowcase />
           <Agenda />
-          <LogoShowcase text='Organizers' data={OrganizerSVG} />
+          <LogoShowcase text='Our Communication and Media Partner' data={OrganizerSVG} />
           <TicketShowcase />
           <div className="text-[#9D9D9D] font-inter flex flex-col md:flex-row justify-between">
             <p className="text-sm text-wrap">
             COPYRIGHT © 2024  SCHOOLS OF TOMORROW © ALL RIGHTS RESERVED
             </p>
             <Link className="mt-4 md:mt-0 text-sm" href='https://www.gradical.xyz/'>
-              BY GRADICAL
+              <u>BY GRADICAL</u>
             </Link>
           </div>
         </div>
