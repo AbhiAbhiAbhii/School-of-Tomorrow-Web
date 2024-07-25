@@ -21,9 +21,13 @@ export const OrganizerSVG = [
         src: '/assets/logo/the-circle.svg'
     },
     {
-        id:4,
+        id:5,
         src: '/assets/logo/SL.svg'
     },
+    // {
+    //     id:6,
+    //     src: '/assets/logo/LS_newlogo_white.png'
+    // },
 ]
 export const Collaborators = [
     {
@@ -133,44 +137,53 @@ export const speakerDataC = [
 
 export const speakerDataNew = [
     {
-        src: '/assets/speakers/Shekhar_Singh.jpg',
+        src: '/assets/speakers/Shekhar-Singh.jpeg',
         name: 'Shekhar Singh',
-        title: 'Municipal Commissioner',
+        title: 'Pimpri Chinchwad Municipal Corporation (PCMC)',
         link: 'https://www.linkedin.com/in/shekhar-singh-0297735/'
     },
     {
         src: '/assets/speakers/mridul_batra.jpg',
-        name: 'Mridul Batra',
+        name: 'Mridul Batra at Prakriti School',
         title: 'Co-founder and School Leader',
         link: 'https://www.linkedin.com/in/mridul/'
     },
     {
         src: '/assets/speakers/Nandita_Deosthale.jpg',
         name: 'Nandita Deosthale',
-        title: 'Co-founder',
+        title: 'Co-founder at at The Learning Centre & Furthering Education',
         link: 'https://www.linkedin.com/in/nandita-deosthale-36a90719/'
     },
 ]
 
 export const speakerDataNewB = [
     {
-        src: '/assets/speakers/Aparna_Priyadarsini.jpg',
-        name: 'Aparna Priyadarsini Mudaliat',
-        title: 'Curriculum Lead',
-        link: 'https://www.linkedin.com/in/aparna-priyadarsini-2110833/?trk=contact-info'
+        src: '/assets/speakers/Shaheen-Mistri.jpg',
+        name: 'Shaheen Mistri',
+        title: 'Founder and CEO, Teach For India Founder, Akanksha Foundation',
+        link: 'https://www.linkedin.com/in/shaheen-mistri/'
     },
-    // {
-    //     src: '/assets/speakers/mridul_batra.jpg',
-    //     name: 'Mridul Batra',
-    //     title: 'Co-founder and School Leader',
-    //     link: 'https://www.linkedin.com/in/mridul/'
-    // },
-    // {
-    //     src: '/assets/speakers/Nandita_Deosthale.jpg',
-    //     name: 'Nandita Deosthale',
-    //     title: 'Co-founder',
-    //     link: 'https://www.linkedin.com/in/nandita-deosthale-36a90719/'
-    // },
+    {
+        src: '/assets/speakers/Sandeep.webp',
+        name: 'Sandeep Rai',
+        title: 'Founder and CEO at The Circle India',
+        link: 'https://www.linkedin.com/in/sandeep-rai-3463a0a/'
+    },
+    {
+        src: '/assets/speakers/Sanya_Sagar.jpg',
+        name: 'Sanya Sagar',
+        title: 'Senior Manager of Programs at Global School Leaders',
+        link: 'https://www.linkedin.com/in/'
+    },
+]
+
+export const speakerDataNewC = [
+    {
+        src: '/assets/speakers/Sharanya_Dilip.JPG',
+        name: 'Sharanya Dilip',
+        title: 'Co-founder at The Learning Community at Quest (TLC at Quest)',
+        link: 'https://www.linkedin.com/in/'
+    },
 ]
 
 
@@ -180,16 +193,14 @@ Have to add, Shekhar Singh (should be the first image - he is the highlight),
 Mridul Batra, Nandita, Aparna, Sharanya, Sanya, Shaheen, Sandeep
 
     ADD NEW GUEST SPEAKERS
-    1.)Shekhar Singh (I.A.S.)
-        LINK: https://www.linkedin.com/in/shekhar-singh-0297735/ done
-    2.) Mridul Batra
-        LINK: done
+    1.)Shekhar Singh (I.A.S.) done
+    2.) Mridul Batra done
     3.) Nandita done
     4.) Aparna done
-    5.) Sharanya not found
-    6.) Sanya not found
-    7.) Shaheen not found
-    8.) Sandeep
+    5.) Sharanya found
+    6.) Sanya found
+    7.) Shaheen done
+    8.) Sandeep done
          
 */
 

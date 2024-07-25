@@ -2,7 +2,7 @@
 import React from 'react'
 import Eyebrow from './Eyebrow'
 import SpeakerItemHolder from './SpeakerItemHolder'
-import { speakerDataA, speakerDataB, speakerDataC, speakerDataNew } from '../../../data'
+import { speakerDataA, speakerDataB, speakerDataC, speakerDataNew, speakerDataNewB, speakerDataNewC } from '../../../data'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import "swiper/css/free-mode";
@@ -28,16 +28,25 @@ export default function SpeakerShowcase() {
         <SpeakerItemHolder 
             isEven
             className={'hidden sm:flex'}
-            data={speakerDataA}
+            data={speakerDataNewB}
         />
         <SpeakerItemHolder 
             className={'hidden sm:flex'}
-            data={speakerDataB}
+            data={speakerDataA}
         />
         <SpeakerItemHolder 
             isEven
             className={'hidden sm:flex'}
+            data={speakerDataB}
+        />
+        <SpeakerItemHolder 
+            className={'hidden sm:flex'}
             data={speakerDataC}
+        />
+        <SpeakerItemHolder 
+            isEven
+            className={'hidden sm:flex'}
+            data={speakerDataNewC}
         />
         <div className='flex sm:hidden'>
             <Swiper
