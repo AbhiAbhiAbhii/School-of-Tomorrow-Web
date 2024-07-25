@@ -24,10 +24,10 @@ export const OrganizerSVG = [
         id:5,
         src: '/assets/logo/SL.svg'
     },
-    // {
-    //     id:6,
-    //     src: '/assets/logo/LS_newlogo_white.png'
-    // },
+    {
+        id:6,
+        src: '/assets/logo/Light_House-Studios.svg'
+    },
 ]
 export const Collaborators = [
     {
@@ -191,7 +191,6 @@ export const speakerDataNewC = [
 /* 
 Have to add, Shekhar Singh (should be the first image - he is the highlight), 
 Mridul Batra, Nandita, Aparna, Sharanya, Sanya, Shaheen, Sandeep
-
     ADD NEW GUEST SPEAKERS
     1.)Shekhar Singh (I.A.S.) done
     2.) Mridul Batra done
@@ -201,7 +200,6 @@ Mridul Batra, Nandita, Aparna, Sharanya, Sanya, Shaheen, Sandeep
     6.) Sanya found
     7.) Shaheen done
     8.) Sandeep done
-         
 */
 
 export const tableData = [
