@@ -16,7 +16,7 @@ export default function HexShowcase() {
         {
             id: 2,
             number: '200',
-            text: 'additional educator participant'
+            text: 'Educators'
         },
     ]
 
