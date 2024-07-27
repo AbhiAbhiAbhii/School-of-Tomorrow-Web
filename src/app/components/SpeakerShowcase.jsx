@@ -13,7 +13,7 @@ import Link from 'next/link'
 
 export default function SpeakerShowcase() {
 
-    const mobData = [].concat([...speakerDataA, ...speakerDataB, ...speakerDataC])
+    const mobData = [].concat([...speakerDataNew, ...speakerDataNewB, ...speakerDataNewC,...speakerDataA, ...speakerDataB, ...speakerDataC])
 
   return (
     <section className='speakers scroll-m-7 space-y-12'>
