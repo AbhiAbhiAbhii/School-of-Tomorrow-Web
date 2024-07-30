@@ -51,9 +51,9 @@ export default function BeliefShowcase() {
 
   return (
     <section className='sm:space-y-24'>
-       <div className='font-PPEdNewUltralight text-[#FBFAED] text-5xl sm:text-5xl 2xl:text-6xl 3xl:text-8xl'>
+       <div className='font-PPEdNewUltralight text-[#FBFAED] text-5xl sm:text-8xl 2xl:text-8xl 3xl:text-8xl'>
         <p>Experience the</p>
-        <p className='relative sm:left-12'>schools of tomorrow conference</p>
+        <p className='relative'>schools of tomorrow conference</p>
         <p>
             through
         </p>

@@ -31,8 +31,10 @@ export default function Home() {
           <Agenda />
           <LogoShowcase text='Organizers' data={OrganizerSVG} />
           <LogoShowcase text='Our Communication and Media Partners' data={logoB} />
+        </div>
+        <div className="space-y-12">
           <TicketShowcase />
-          <div className="text-[#9D9D9D] font-inter flex flex-col md:flex-row justify-between">
+          <div className="text-[#9D9D9D] font-inter flex flex-col md:flex-row justify-between !mb-6">
             <p className="text-sm text-wrap">
             COPYRIGHT © 2024  SCHOOLS OF TOMORROW © ALL RIGHTS RESERVED
             </p>

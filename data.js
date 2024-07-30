@@ -85,7 +85,7 @@ export const accordionData = [
     {
         src: '/assets/speakers/kushboo.jpeg',
         name: 'Khushboo Awasthi',
-        title: 'Co-founder at Mantra4Change',
+        title: 'Co-founder at ShikshaLokam and Mantra4Change',
         link: 'https://www.linkedin.com/in/khushboo-awasthi-m4c/'
     },
     {
@@ -100,7 +100,7 @@ export const speakerDataB = [
     {
         src: '/assets/speakers/payal.jpeg',
         name: 'Payal Patel',
-        title: 'Program Manager and Treasurer at Jayso Labs',
+        title: 'Program Manager and Treasurer at Jayso Foundation',
         link: 'https://www.linkedin.com/in/payal-bhatt/'
     },
     {
@@ -132,8 +132,8 @@ export const speakerDataC = [
     },
     {
         src: '/assets/speakers/Aparna_Priyadarsini.jpg',
-        name: 'Aparna Priyadarsini Mudaliat',
-        title: 'Curriculum Lead',
+        name: 'Aparna Priyadarsini',
+        title: 'Curriculum Lead at Government Higher Primary School, Ramagondanahalli',
         link: 'https://www.linkedin.com/in/aparna-priyadarsini-2110833/?trk=contact-info'
     },
 ]
@@ -141,20 +141,20 @@ export const speakerDataC = [
 export const speakerDataNew = [
     {
         src: '/assets/speakers/Shekhar-Singh.jpeg',
-        name: 'Shekhar Singh',
-        title: 'Pimpri Chinchwad Municipal Corporation (PCMC)',
+        name: 'Shekhar Singh (I.A.S)',
+        title: 'Municipal Commissioner at Pimpri Chinchwad Municipal Corporation (PCMC)',
         link: 'https://www.linkedin.com/in/shekhar-singh-0297735/'
     },
     {
         src: '/assets/speakers/mridul_batra.jpg',
-        name: 'Mridul Batra at Prakriti School',
-        title: 'Co-founder and School Leader',
+        name: 'Mridul Batra',
+        title: 'Co-founder and School Leader at Prakriti School',
         link: 'https://www.linkedin.com/in/mridul/'
     },
     {
         src: '/assets/speakers/Nandita_Deosthale.jpg',
         name: 'Nandita Deosthale',
-        title: 'Co-founder at at The Learning Centre & Furthering Education',
+        title: 'Co-founder at The Learning Centre & Furthering Education',
         link: 'https://www.linkedin.com/in/nandita-deosthale-36a90719/'
     },
 ]
@@ -184,7 +184,7 @@ export const speakerDataNewC = [
     {
         src: '/assets/speakers/Sharanya_Dilip.JPG',
         name: 'Sharanya Dilip',
-        title: 'Co-founder at The Learning Community at Quest (TLC at Quest)',
+        title: 'Co-founder at The Learning Community at Quest',
         link: 'https://www.linkedin.com/in/'
     },
 ]

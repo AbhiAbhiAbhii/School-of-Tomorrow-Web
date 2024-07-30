@@ -9,13 +9,13 @@ export default function HeroBannerText() {
       <p className={`${textClassName} relative lg:top-8 sm:left-0 sm:top-[-20%] md:top-6 lg:left-1 w-fit`}>
         The future
       </p>
-      <p className={`${textClassName} grid sm:relative sm:top-6 3xl:top-0 lg:place-content-end w-full`}>
-        <span className="sm:mr-4 xl:mr-2 3xl:mr-36">of education is</span>
+      <p className={`${textClassName} grid sm:relative sm:top-6 3xl:top-0`}>
+        <span className="">of education is</span>
       </p>
-      <p className={`${textClassName} relative sm:bottom-0 lx:bottom-8`}>
+      <p className={`${textClassName} relative sm:-bottom-2`}>
         here.
       </p>
-      <HeroBannerDescription className='relative mt-4 sm:bottom-6' />
+      <HeroBannerDescription className='relative mt-4 sm:bottom-0' />
     </div>
   )
 }

@@ -11,7 +11,7 @@ export default function HexShowcase() {
         {
             id: 1,
             number: '25%',
-            text: 'Educators will come from across the world'
+            text: 'of School leader participants will come from across the world'
         },
         {
             id: 2,

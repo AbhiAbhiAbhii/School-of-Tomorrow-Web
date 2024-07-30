@@ -26,9 +26,18 @@ export default function  SpeakerItemHolder({ data , isEven, className }) {
               bgClassName = "bg-[#EF4976]"
               break;
           }
+
+          let className
+
+          if(data.length === 1) {
+            className="shrink-25"
+          } else {
+            className=`${active === index ? 'expand-75':'shrink-25'}`
+          }
+
           return (
             <div onMouseOver={() => handleMouseOver(index)}
-              className={`space-y-2 ${active === index ? 'expand-75':'shrink-25'}`}  key={index}>
+              className={`space-y-2 ${className}`}  key={index}>
               <div 
                 className={
                   `w-full h-[300px] overflow-hidden ${bgClassName}

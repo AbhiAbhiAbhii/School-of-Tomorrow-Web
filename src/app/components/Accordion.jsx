@@ -10,18 +10,18 @@ export default function Accordion({ data, className }) {
 
     const [active, setActive] = useState(0)
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        const generateRandomColor = () => {
+    //     const generateRandomColor = () => {
 
-            return data.map(() => {
-                return colors[Math.floor(Math.random() * colors.length)]
-            })
-        }
+    //         return data.map(() => {
+    //             return colors[Math.floor(Math.random() * colors.length)]
+    //         })
+    //     }
 
-        setRandomColors(() => generateRandomColor())
+    //     setRandomColors(() => generateRandomColor())
 
-    }, [])
+    // }, [])
 
     function handleClick(index) {
        if(active === index) {
@@ -40,7 +40,7 @@ export default function Accordion({ data, className }) {
                 <li    
                     key={item.id}
                     style={{
-                        background: `${randomColors[index]}`
+                        background: `${colors[index]}`
                     }}
                     onClick={() => handleClick(index)}
                     className="p-2 sm:p-6 h-fit transition-all cursor-pointer"

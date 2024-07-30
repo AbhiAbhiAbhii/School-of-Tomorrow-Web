@@ -5,15 +5,15 @@ import SpeakerItemHolder from './SpeakerItemHolder'
 import { speakerDataA, speakerDataB, speakerDataC, speakerDataNew, speakerDataNewB, speakerDataNewC } from '../../../data'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
-import "swiper/css/free-mode";
-import 'swiper/css/navigation';
+import "swiper/css/free-mode"
+import 'swiper/css/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 
 
 export default function SpeakerShowcase() {
 
-    const mobData = [].concat([...speakerDataNew, ...speakerDataNewB, ...speakerDataNewC,...speakerDataA, ...speakerDataB, ...speakerDataC])
+  const mobData = [].concat([...speakerDataNew, ...speakerDataNewB, ...speakerDataNewC,...speakerDataA, ...speakerDataB, ...speakerDataC])
 
   return (
     <section className='speakers scroll-m-7 space-y-12'>
