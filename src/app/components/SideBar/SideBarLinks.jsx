@@ -15,6 +15,6 @@ export default function SideBarLinks({item}) {
     useDesktopAnimation('.agenda', '.hot-link:nth-child(4)')
 
   return (
-    <li onClick={() => handleClick(item.link)} className='hot-link font-inter font-bold p-1 transition-all hover:bg-white hover:!text-purpleB text-white text-sm cursor-pointer'>{item.text}</li>  
+    <li onClick={() => handleClick(item.link)} className='hot-link font-inter font-bold p-1 transition-all hover:!bg-white hover:!text-purpleB text-white text-sm cursor-pointer'>{item.text}</li>  
     )
 }

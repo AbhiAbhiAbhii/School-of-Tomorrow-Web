@@ -52,11 +52,19 @@ export default function Accordion({ data, className }) {
                             >
                                 {count}
                             </p>
-                            <p 
+                            <div
                                 className="font-PPEdNewUltralight text-[#000] text-xl sm:text-3xl w-[75%]"
                             >
-                                {item.title}
-                            </p>
+                                <p className="text-sm">
+                                    {item.time}
+                                </p>
+                                <p>
+                                    {item.title}
+                                </p>
+                                <p className="text-xs font-inter font-semibold !leading-[20px]">
+                                    {item.panelists}
+                                </p>
+                            </div>
                        </div>
                         <div 
                             className={`${active === index ? 'rotate-active':'rotate-in-active'} transition-all cursor-pointer`}

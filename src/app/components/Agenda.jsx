@@ -47,10 +47,19 @@ export default function Agenda() {
         <Eyebrow 
             text='Program Agenda'
             isSingle 
-            className='!justify-center sm:!justify-between mx-auto md:mx-0'
+            className='items-center sm:!justify-between md:mx-0 !w-fit gap-4'
             textClass={'xl:!text-7xl'}
+            isImg
+            imgItem={
+                <Image 
+                    src="/registration_closed.svg"
+                    height={106}
+                    width={106}
+                    alt='DAY 1&2 CLOSED'
+                />
+            }
         />
-        <div
+        {/* <div
             className='relative sm:hidden flex justify-between' 
         >
             {
@@ -84,7 +93,7 @@ export default function Agenda() {
                     }} />
                 </div>
             </div>
-        </div>
+        </div> */}
             <div className='sm:hidden'>
                 {
                     tableData.map((item, index) => <TableVariant1 style={{display: active === index ? '':'none'}} index={index} key={item.id} item={item} />)
