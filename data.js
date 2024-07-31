@@ -189,21 +189,38 @@ export const speakerDataNewC = [
     },
 ]
 
-
-
-/* 
-Have to add, Shekhar Singh (should be the first image - he is the highlight), 
-Mridul Batra, Nandita, Aparna, Sharanya, Sanya, Shaheen, Sandeep
-    ADD NEW GUEST SPEAKERS
-    1.)Shekhar Singh (I.A.S.) done
-    2.) Mridul Batra done
-    3.) Nandita done
-    4.) Aparna done
-    5.) Sharanya found
-    6.) Sanya found
-    7.) Shaheen done
-    8.) Sandeep done
-*/
+export const beliefData = [
+    {
+        id: '01',
+        title: 'Masterclasses by Industry Experts',
+        text: "In-depth insights and knowledge on specific topics related to the conference's theme"
+    },
+    {
+        id: '02',
+        title: 'Learning Workshops',
+        text: 'Practical design insights and tools, focused on solving real-world challenges in Schools across Pune'
+    },
+    {
+        id: '03',
+        title: 'Insight Panels',
+        text: 'Break down topics urgent and deeply relevant to the cause of building future-ready schools. Initiate sparks and inspiration to take forward'
+    }, 
+    {
+        id: '04',
+        title: 'Hackathon',
+        text: 'Unconference format to design prototypes rapid and collaborative manner. culminating into a community pitchathon'
+    },
+    {
+        id: '05',
+        title: 'Keynote Sessions',
+        text: 'Insights and inspiration as well as set the tone for the rest of the conference by student leaders and industry experts'
+    }, 
+    {
+        id: '06',
+        title: 'Exhibits & Pop-Up Studios',
+        text: 'Exemplary concepts and installations, live outcomes by orgs and schools across the country.'
+    }
+]
 
 export const tableData = [
     { // Day I

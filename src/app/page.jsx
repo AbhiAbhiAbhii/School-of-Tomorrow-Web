@@ -23,7 +23,7 @@ export default function Home() {
           <HeroBanner />
           <HeroBannerText />
         </div>
-        <div className="relative space-y-24 lx:bottom-24">
+        <div className="relative space-y-24 lx:bottom-6">
           <HexShowcase />
           <BeliefShowcase />
           <SpeakerShowcase />
