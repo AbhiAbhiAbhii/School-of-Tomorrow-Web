@@ -2,7 +2,7 @@
 import React from 'react'
 import Eyebrow from './Eyebrow'
 import SpeakerItemHolder from './SpeakerItemHolder'
-import { speakerDataA, speakerDataB, speakerDataC, speakerDataNew, speakerDataNewB, speakerDataNewC } from '../../../data'
+import { speakerDataA, speakerDataB, speakerDataC, speakerDataNew, speakerDataNewB, speakerDataNewC, speakerDataNewD, speakerDataNewE } from '../../../data'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import "swiper/css/free-mode"
@@ -13,7 +13,7 @@ import Link from 'next/link'
 
 export default function SpeakerShowcase() {
 
-  const mobData = [].concat([...speakerDataNew, ...speakerDataNewB, ...speakerDataNewC,...speakerDataA, ...speakerDataB, ...speakerDataC])
+  const mobData = [].concat([...speakerDataNew, ...speakerDataNewB, ...speakerDataNewC, ...speakerDataNewD, ...speakerDataNewE, ...speakerDataA, ...speakerDataB, ...speakerDataC])
 
   return (
     <section className='speakers scroll-m-7 space-y-12'>
@@ -47,6 +47,15 @@ export default function SpeakerShowcase() {
             isEven
             className={'hidden sm:flex'}
             data={speakerDataNewC}
+        />
+        <SpeakerItemHolder 
+            className={'hidden sm:flex'}
+            data={speakerDataNewD}
+        />
+        <SpeakerItemHolder
+            isEven 
+            className={'hidden sm:flex'}
+            data={speakerDataNewE}
         />
         <div className='flex sm:hidden'>
             <Swiper

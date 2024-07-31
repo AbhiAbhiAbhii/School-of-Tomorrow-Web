@@ -187,6 +187,46 @@ export const speakerDataNewC = [
         title: 'Co-founder at The Learning Community at Quest',
         link: 'https://www.linkedin.com/in/'
     },
+    {
+        src: '/assets/speakers/Astha_Chaubey.jpeg',
+        name: 'Astha Chaubey',
+        title: 'A KER Revolutionary and the co-founder of Project "Community of Wisdom"',
+        link: 'https://www.linkedin.com/in/astha-chaubey-a94852273/'
+    },
+    {
+        src: '/assets/speakers/Triveni_Dhamdhere.jpeg',
+        name: 'Triveni Dhamdhere',
+        title: 'Student Alumna of The Akanksha Foundation',
+        link: 'https://www.linkedin.com/in/'
+    },
+]
+export const speakerDataNewD = [
+    {
+        src: '/assets/speakers/Akshata_Bhosale.JPG',
+        name: 'Akshata Bhosale',
+        title: 'Student at Avasara Academy',
+        link: 'https://www.linkedin.com/in/'
+    },
+    {
+        src: '/assets/speakers/Sreesha_Chainani.jpeg',
+        name: 'Sreesha Chainani',
+        title: 'Student at The Riverside School',
+        link: 'https://www.linkedin.com/in/'
+    },
+    {
+        src: '/assets/speakers/Riya_Makwana.jpeg',
+        name: 'Riya Makwana',
+        title: 'Student at iTeach AVB School',
+        link: 'https://www.linkedin.com/in/'
+    },
+]
+export const speakerDataNewE = [
+    {
+        src: '/assets/speakers/AakanshaKedia.png',
+        name: 'Aakansha Kedia',
+        title: 'Learning Architect at Project FUEL',
+        link: 'https://www.linkedin.com/in/aakansha-kedia/'
+    },
 ]
 
 export const beliefData = [
