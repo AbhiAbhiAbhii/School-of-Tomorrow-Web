@@ -6,6 +6,7 @@ import Separator from './Separator'
 import PinkBlockB from './SideBar/PinkBlockB'
 import Icons from './SideBar/Icons'
 import BlockA from './SideBar/BlockA'
+import { useAnimation } from '../hooks/useAnimation'
 
 export default function NavBar() {
 
@@ -59,52 +60,10 @@ export default function NavBar() {
     },
   ]
 
-useEffect(() => {
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if(entry.isIntersecting) {
-                document.querySelector('.mob-hot-link:first-child').style.color = '#FFFF'
-            } else {
-                document.querySelector('.mob-hot-link:first-child').style.color = 'rgba(255, 255, 255, 0.36)'
-            }
-        })
-    }, {threshold: 0.8})
-    observer.observe(document.querySelector('.about'))
-
-    const secondObserver = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if(entry.isIntersecting) {
-                document.querySelector('.mob-hot-link:nth-child(2)').style.color = '#FFFF'
-            } else {
-                document.querySelector('.mob-hot-link:nth-child(2)').style.color = 'rgba(255, 255, 255, 0.36)'
-            }
-        })
-    }, {threshold: 0.8})
-    secondObserver.observe(document.querySelector('.speakers'))
-
-    const thirdObserver = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if(entry.isIntersecting) {
-                document.querySelector('.mob-hot-link:nth-child(3)').style.color = '#FFFF'
-            } else {
-                document.querySelector('.mob-hot-link:nth-child(3)').style.color = 'rgba(255, 255, 255, 0.36)'
-            }
-        })
-    }, {threshold: 0.8})
-    thirdObserver.observe(document.querySelector('.panels'))
-
-    const fourthObserver = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if(entry.isIntersecting) {
-                document.querySelector('.mob-hot-link:nth-child(4)').style.color = '#FFFF'
-            } else {
-                document.querySelector('.mob-hot-link:nth-child(4)').style.color = 'rgba(255, 255, 255, 0.36)'
-            }
-        })
-    }, {threshold: 0.8})
-    fourthObserver.observe(document.querySelector('.agenda'))
-
-}, [])
+  useAnimation('.about', '.mob-hot-link:first-child')
+  useAnimation('.speakers', '.mob-hot-link:nth-child(2)')
+  useAnimation('.panels', '.mob-hot-link:nth-child(3)')
+  useAnimation('.agenda', '.mob-hot-link:nth-child(4)')
 
   return (
     <>

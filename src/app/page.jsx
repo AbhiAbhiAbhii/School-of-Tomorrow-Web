@@ -6,7 +6,7 @@ import BeliefShowcase from "./components/BeliefShowcase";
 import SpeakerShowcase from "./components/SpeakerShowcase";
 import Agenda from "./components/Agenda";
 import LogoShowcase from "./components/LogoShowcase";
-import { Collaborators, logoB, OrganizerSVG } from "../../data";
+import { logoB, OrganizerSVG } from "../../data";
 import TicketShowcase from "./components/TicketShowcase";
 import Link from "next/link";
 import PanelsShowcase from "./components/PanelsShowcase";

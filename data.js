@@ -75,7 +75,7 @@ export const accordionData = [
 
 ]
 
-  export const speakerDataA = [
+export const speakerDataA = [
     {
         src: '/assets/speakers/atul.jpeg',
         name: 'Atul Thakkar',
