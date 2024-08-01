@@ -57,7 +57,7 @@ export const accordionData = [
       id: 0,
       title: 'Equity and Reinvention: At-Odds or Ad-vantage',
       time: '11: 00 - 12:00 PM',
-      panelists: 'with Shekhar Singh (I.A.S.), PCMC Commissioner, Rahul Gupta (Rajalka Consulting), Atul Thakkar (Anand Rathi Foundation), Khushboo Awasthi (Shikshalokam), Moderator : Ramabhadran Sundaram (Teach For India)',
+      panelists: 'with Shekhar Singh (I.A.S.), PCMC Commissioner, Rahul Gupta (Rajalka Consulting), Atul Thakkar (Anand Rathi Advisors Ltd), Khushboo Awasthi (Shikshalokam), Moderator : Ramabhadran Sundaram (Teach For India)',
       description: `On the one hand, we've seen over and over again, a separation between those innovating in learning in India and those working towards bridging the inequity. The most innovative schools are often exclusively for children from privileged backgrounds. On the other hand, quoting the Radical Departures report from Teach For America's Reinvention Lab, "We cannot define innovation without defining equity. They are inseparable in conversations about education. Innovation solves problems. The most inextricable problem in education is inequity. To be innovative, educational practice must solve for inequity. At the same time, driving harder in the current system and expecting different results has only worked to a point: equity needs innovation to create larger leaps towards a system that works for each and every young person. " So, are the two at odds with each other? Or can one serve as a natural advantage of the other?`
     },
     {
