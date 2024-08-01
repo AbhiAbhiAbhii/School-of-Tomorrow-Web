@@ -88,7 +88,7 @@ export const speakerDataA = [
     {
         src: '/assets/speakers/atul.jpeg',
         name: 'Atul Thakkar',
-        title: 'Director at Anand Rathi Financial Services Limited',
+        title: 'Director at Anand Rathi Advisors Ltd',
         link: 'https://www.linkedin.com/in/atul-thakkar-8286526'
     },
     {
